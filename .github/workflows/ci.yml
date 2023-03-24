@@ -20,7 +20,7 @@ jobs:
         run: bundle install
 
       - name: Set up database schema
-        run: bin/rails db:create
+        run: bin/rails db:migrate
 
       - name: Run tests
         run: bundle exec rspec
