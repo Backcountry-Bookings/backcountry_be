@@ -1,0 +1,177 @@
+{
+  "total": "2",
+  "limit": "1",
+  "start": "0",
+  "data": [
+      {
+          "id": "7475825B-E844-4012-841B-0E29E05D4540",
+          "url": "https://www.nps.gov/romo/planyourvisit/agcg.htm",
+          "name": "Aspenglen Campground",
+          "parkCode": "romo",
+          "description": "Aspenglen Campground is reservation only. Visit Recreation.gov. Aspenglen opens for the 2023 season on May 26. Timed Entry Permits are included with your camping reservation. For Aspenglen Campers, your reservation includes access to Bear Lake Road. Campers will be able to initially enter the park beginning at 1 p.m. on the first day of your camping reservation. If you plan to enter the park earlier in the day, you will have to enter the park outside of the times when Timed Entry Permits are in effect.",
+          "latitude": "40.39934770583215",
+          "longitude": "-105.59305451637942",
+          "latLong": "{lat:40.39934770583215, lng:-105.59305451637942}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "4D716569-72FA-4D90-8A4D-ED2475396A08",
+          "reservationInfo": "Aspenglen Campground is a reservation only campground. All sites are reservable up to six months in advance.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233187",
+          "regulationsurl": "",
+          "regulationsOverview": "There is an eight (8) person limit per site. Each camping site is limited to: one camping unit (i.e., a tent, RV, or trailer/tow vehicle) plus one additional tent. All tents shall be located on the tent pad. All additional camp structures must be self standing without impacts to vegetation or trees. Parking is limited to two (2) vehicles per site. A vehicle is defined as one vehicle, one trailer, one RV, or one towed unit. Each vehicle must be parked on the gravel or paved parking pad causing no resource degradation or encroachment onto the paved access road. Some sites will accommodate only one vehicle on the graveled parking pad. Extra vehicles must park in overflow areas. Check-in is after 1 p.m. Bears, Deer, elk, raccoons and skunks frequent the area: all food, pet food, cooking utensils and other scented items must be stored in a vehicle or food storage lockers located in the campground. For more regulations, visit https://www.recreation.gov/camping/campgrounds/233187?tab=info under \"Need to Know.\"",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Flush Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - seasonal",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "Yes - seasonal",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "Yes - seasonal"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "9705861206",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "romo_information@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "30.00",
+                  "description": "Per site per night",
+                  "title": "Camping Fee"
+              }
+          ],
+          "directionsOverview": "Immediately west of the Fall River Entrance Station, follow signs south to Aspenglen Campground.",
+          "directionsUrl": "",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Aspenglen Campground is closed for the season. For more information, visit https://www.recreation.gov/camping/campgrounds/233187",
+                  "standardHours": {
+                      "wednesday": "Closed",
+                      "monday": "Closed",
+                      "thursday": "Closed",
+                      "sunday": "Closed",
+                      "tuesday": "Closed",
+                      "friday": "Closed",
+                      "saturday": "Closed"
+                  },
+                  "name": "Aspenglen Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "80517",
+                  "city": "Estes Park",
+                  "stateCode": "CO",
+                  "line1": "Cascade Cottages Road",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": "Rocky Mountain National Park"
+              },
+              {
+                  "postalCode": "80517",
+                  "city": "Estes Park",
+                  "stateCode": "CO",
+                  "line1": "Aspenglen Campground",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": "1000 US Highway 36"
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Aspenglen Campground",
+                  "altText": "Road through pines with tent sites",
+                  "caption": "Aspenglen Campground is nestled in a pine forest near Fall River",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3FAA6E89-1DD8-B71B-0B170E56BD4ED00D.jpg"
+              },
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Campsite with popup camper and comfort station",
+                  "altText": "Popup camper at campsite with picnic table and comfort station",
+                  "caption": "A typical campsite at Aspenglen Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3FB3F3FE-1DD8-B71B-0B9E4BCE69676E6D.jpg"
+              },
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Aspenglen Comfort Station",
+                  "altText": "Comfort station set in trees",
+                  "caption": "A comfort station (restroom) at Aspenglen Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3FC22E4A-1DD8-B71B-0B1EF349ED80CF5A.jpg"
+              },
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Food Storage Locker",
+                  "altText": "A visitor places food in a food storage locker",
+                  "caption": "Use food storage lockers to protect food from bears and other wildlife.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3FCBC8C3-1DD8-B71B-0BCD4A43E1924C05.jpg"
+              }
+          ],
+          "weatherOverview": "Average High and Low Temperatures (Fahrenheit): May: 62 / 34 June: 73 / 41 July: 78 / 46 August: 77 / 45 September: 70 / 38",
+          "numberOfSitesReservable": "54",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "52",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "13",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "5",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Two ADA sites are offered for those customers with a disability or otherwise limited mobility who would benefit from the accessibility design features.",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "Fires are only allowed in metal fire grates. Never leave fires or coals unattended. Fires must be completely extinguished before leaving campsite or going to bed. Gathering firewood or fire-starting materials is prohibited.",
+              "rvAllowed": "1",
+              "rvInfo": "Generators may be run only in Loop C between 7:30 - 10 am and 4 - 8:30 pm. There is no dump station—RV sewage and wastewater tanks must be emptied at the dump station located in Moraine Park Campground",
+              "rvMaxLength": "30",
+              "additionalInfo": "All campers are required to store all food items in food storage lockers.",
+              "trailerMaxLength": "30",
+              "adaInfo": "Two ADA sites are offered for those customers with a disability or otherwise limited mobility who would benefit from the accessibility design features.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      }
+  ]
+}
