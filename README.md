@@ -96,11 +96,19 @@ Utilize an Agile project management process to hone skill and comfort with build
 * Ruby 2.7.4
 * Rails 5.2.8
 
+### API Information
+This project comsumes external APIs that require API Keys. The Figaro gem was used to create a hidden .yml file to save the env files (you can use any gem to accomplish this). The gem is already listed in Gemfile but you need to follow the additional steps listed [here](https://github.com/laserlemon/figaro#:~:text=Figaro%20installation%20is%20easy%3A). Start at bundle exec figaro install
+
+The variable names of your api keys must follow this pattern:
+
+[National Park Service API](https://www.nps.gov/subjects/developer/api-documentation.htm)
+* NPS_API_KEY: YOUR NPS API KEY
+
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/TrailsNbrews/trails_n_brews_BE.git
+   git clone git@github.com:Backcountry-Bookings/backcountry_be.git
    ```
 2. Install gems
    ```sh
@@ -114,20 +122,6 @@ Utilize an Agile project management process to hone skill and comfort with build
     ```sh
     bundle exec rspec
     ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +199,31 @@ Don't forget to give the project a star! Thanks again!
 ## Developers
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/111726505?s=400&u=30c6a5c91b611750a32a1a07dc1da834684dffa1&v=4" alt="Profile" width="80" height="80">
-  <p align="center">
-    Brandon Gray<br>
-    <a href="https://github.com/bGray88">Github: bGray88</a>
-  </p>
-</div>
-<div align="center">
   <img src="https://avatars.githubusercontent.com/u/46434166?v=4" alt="Profile" width="80" height="80">
   <p align="center">
     Christian McCabe<br>
     <a href="https://github.com/cemccabe">Github: cemccabe</a>
+  </p>
+</div>
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/105924761?v=4" alt="Profile" width="80" height="80">
+  <p align="center">
+    Colin Ciervo<br>
+    <a href="https://github.com/Mrcolin99">Github: Mrcolin99</a>
+  </p>
+</div>
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/113863021?v=4" alt="Profile" width="80" height="80">
+  <p align="center">
+    Craig Weller<br>
+    <a href="https://github.com/crgweller">Github: crgweller</a>
+  </p>
+</div>
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/111480866?v=4" alt="Profile" width="80" height="80">
+  <p align="center">
+    Kerynn Davis<br>
+    <a href="https://github.com/Kerynn">Github: Kerynn</a>
   </p>
 </div>
 <div align="center">
@@ -226,44 +234,36 @@ Don't forget to give the project a star! Thanks again!
   </p>
 </div>
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/111591731?v=4" alt="Profile" width="80" height="80">
+  <img src="https://avatars.githubusercontent.com/u/113707169?v=4" alt="Profile" width="80" height="80">
   <p align="center">
-    Leo Banos Garcia<br>
-    <a href="https://github.com/banosl">Github: banosl</a>
+    Rick Vermeil<br>
+    <a href="https://github.com/RickV85">Github: RickV85</a>
   </p>
 </div>
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/108768349?v=4" alt="Profile" width="80" height="80">
+  <img src="https://avatars.githubusercontent.com/u/113728354?v=4" alt="Profile" width="80" height="80">
   <p align="center">
-    Max MacGillivray<br>
-    <a href="https://github.com/MoxieMax">Github: MoxieMax</a>
-  </p>
-</div>
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/106788066?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
-    Sergio Azcona<br>
-    <a href="https://github.com/Sergio-Azcona">Github: Sergio-Azcona</a>
+    Ryan Baer<br>
+    <a href="https://github.com/RyanBaer42">Github: RyanBaer42</a>
   </p>
 </div>
 
 Project Links: <br> 
-[Organization Link](https://github.com/orgs/TrailsNBrews/repositories) <br>
-[Backend Link](https://github.com/TrailsNbrews/trails_n_brews_BE) <br>
-[Frontend Link](https://github.com/TrailsNBrews/Trails-N-Brews_FE)
+[Organization Link](https://github.com/Backcountry-Bookings) <br>
+[Backend Link](https://github.com/Backcountry-Bookings/backcountry_be) <br>
+[Frontend Link](https://github.com/Backcountry-Bookings/backcountry_fe)
 
 ## Project Managers-Instructors
 
-1. Meg Stang
-2. Mike Dao
+1. Cassandra Torske
+2. Ty Keating
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Open Berwery DB](https://www.openbrewerydb.org/)
-* [Colorado Trail Explorer](https://data.colorado.gov/)
+* [National Park Service](https://www.nps.gov/subjects/developer/index.htm)
 * ["The Best README Template" by Github User othneil](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
