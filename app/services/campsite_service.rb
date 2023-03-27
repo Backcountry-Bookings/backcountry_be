@@ -12,6 +12,10 @@ class CampsiteService
     parse(conn.get("/api/v1/campgrounds?q=#{name}"))
   end
 
+  def self.find_by_park(park)
+    parse(conn.get("/api/v1/campgrounds?parkCode=#{park}"))
+  end
+
   def self.parse(response)
     JSON.parse(response.body, symbolize_names: true)
   end
