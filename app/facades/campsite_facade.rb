@@ -21,4 +21,11 @@ class CampsiteFacade
       CampsiteSearch.new(campsite)
     end
   end
+
+  def self.get_campsites_by_park(park)
+    campsite_data = CampsiteService.find_by_park(park)
+    campsite_data[:data].map do |campsite|
+      CampsiteSearch.new(campsite)
+    end
+  end
 end
