@@ -3,7 +3,7 @@ class Api::V1::CampsitesController < ApplicationController
     if params[:state_code]
       campsites = CampsiteFacade.get_campsites_by_state(params[:state_code])
     elsif params[:q]
-      campsites = CampsiteFacade.get_campsites_by_search(params[:q])
+      campsites = CampsiteFacade.get_campsites_by_name(params[:q])
     end
     render json: CampsiteSearchSerializer.new(campsites)
   end
