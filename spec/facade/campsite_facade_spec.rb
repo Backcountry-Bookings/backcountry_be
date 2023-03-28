@@ -35,4 +35,15 @@ RSpec.describe 'campsite facade' do
       end
     end
   end
+
+  describe '#get_campsites_by_park' do
+    it 'returns the campsites by park name' do
+      campsites = CampsiteFacade.get_campsites_by_park('olympic')
+      expect(campsites).to be_a(Array)
+
+      campsites.each do |campsite|
+        expect(campsite).to be_a(CampsiteSearch)
+      end
+    end
+  end
 end
