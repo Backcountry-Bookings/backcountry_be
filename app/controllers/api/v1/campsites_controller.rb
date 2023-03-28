@@ -6,7 +6,6 @@ class Api::V1::CampsitesController < ApplicationController
     elsif params[:q]
       campsites = CampsiteFacade.get_campsites_by_name(params[:q])
     elsif params[:park_name]
-      binding.pry
       park_code = convert_to_park_code(params[:park_name].upcase)
       campsites = CampsiteFacade.get_campsites_by_park(park_code)
     end
