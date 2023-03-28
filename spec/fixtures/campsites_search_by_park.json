@@ -1,0 +1,1684 @@
+{
+  "total": "12",
+  "limit": "50",
+  "start": "0",
+  "data": [
+      {
+          "id": "85AB5EC6-9BBC-4369-9CFA-A51A6D4498A0",
+          "url": "https://www.nps.gov/olym/planyourvisit/dosewallips-area-brochure.htm",
+          "name": "Dosewallips Campground (Walk-In Only)",
+          "parkCode": "olym",
+          "description": "Perfect for secluded tent camping. The access road is washed out 6.5 miles from the campground and it is not vehicle accessible.",
+          "latitude": "47.7373029",
+          "longitude": "-123.1647009",
+          "latLong": "{lat:47.7373029, lng:-123.1647009}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "No Toilets"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [
+              {
+                  "cost": "15.00",
+                  "description": "$15 per night.",
+                  "title": "Dosewallips Campground (Walk-In Only)"
+              }
+          ],
+          "directionsOverview": "Dosewallips Campground is accessible off the Dosewallips Rd. This can been accessed from Highway 101. The Dosewallips road is washed-out outside the Olympic National Park boundary, 6.5 miles from the campground and cannot be traversed with a vehicle. All campers must hike past the wash-out and walk into the campground.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "This campground is only accessible by foot.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Dosewallips Campground (Walk-In Only)"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Dosewallips Campground",
+                  "altText": "Tent in Campsite",
+                  "caption": "Campsite in Dosewallips Camground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3C7AFD2C-1DD8-B71B-0BC019A498A86E9C.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "14",
+          "campsites": {
+              "totalSites": "14",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "14",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Not wheelchair accessible.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone service.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "0",
+              "rvInfo": "Walk-in Campground only. Trailers, RVs, or vehicles are not permitted.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "The Dosewallips road is washed-out outside the park boundary, 6.5 miles from the campground and cannot be traversed with a vehicle. All campers must hike past the wash-out and walk into the campground. No wheelchair accessibility.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "No Roads"
+              ],
+              "classifications": [
+                  "Primitive Camping Areas"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "F15D3521-C877-4DA6-BE0A-E78B83D39AC7",
+          "url": "https://www.nps.gov/olym/planyourvisit/lake-crescent-area-brochure.htm",
+          "name": "Fairholme Campground",
+          "parkCode": "olym",
+          "description": "Neighboring Lake Crescent, Fairholme includes lakeside campsites and a nearby boat launch.",
+          "latitude": "48.0700799992",
+          "longitude": "-123.918138409",
+          "latLong": "{lat:48.0700799992, lng:-123.918138409}",
+          "audioDescription": "Fairholme Campground Entrance. 30 seconds A square brown and white wooden sign at the entrance has a right pointing arrow and the text, Fairholm Campground. A brown metal sign reads, Welcome to Fairholme Campground. Fee $20 per night. 1. Select site and note number. 2. Register at bulletin board near restrooms. 3. Deposit fee in metal cannister. Camp Host B-40. Fairholme Walk-In Campsites. 30 seconds A network of trails lead to the campsites. Be advised. The trail surfaces and campsites are uneven in places and may rise and fall with the terrain. Many campsites are partially edged with logs. Each site has a picnic table, and some have metal fire grates. Bear boxes for food storage are placed throughout the campground as are water taps. The campsites are surrounded by towering old growth forest and patches of green ferns. Lakeside campsites overlook the clear, blue-green water of Lake Crescent and the forest covered mountains rising from the shore.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "3D5D839F-949C-40F4-83A9-6E878CFAFDFB",
+          "reservationInfo": "By reservation only.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/259084",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Flush Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "Yes - year round",
+              "laundry": "No",
+              "amphitheater": "Yes - seasonal",
+              "dumpStation": "Yes - seasonal",
+              "campStore": "Yes - seasonal",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "Yes - seasonal"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "24.00",
+                  "description": "Fee is $24.00 per a night.",
+                  "title": "Fairholme Campground Fee"
+              }
+          ],
+          "directionsOverview": "Fairholme campground is located on the west side of Lake Crescent, off of Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [
+                      {
+                          "exceptionHours": {
+                              "wednesday": "All Day",
+                              "monday": "All Day",
+                              "thursday": "All Day",
+                              "sunday": "All Day",
+                              "tuesday": "All Day",
+                              "friday": "All Day",
+                              "saturday": "All Day"
+                          },
+                          "startDate": "2023-04-23",
+                          "name": "2021 Season",
+                          "endDate": "2023-09-27"
+                      },
+                      {
+                          "exceptionHours": {
+                              "wednesday": "Closed",
+                              "monday": "Closed",
+                              "thursday": "Closed",
+                              "sunday": "Closed",
+                              "tuesday": "Closed",
+                              "friday": "Closed",
+                              "saturday": "Closed"
+                          },
+                          "startDate": "2022-09-28",
+                          "name": "Fairholme Campground - Closed for the winter",
+                          "endDate": "2023-04-22"
+                      }
+                  ],
+                  "description": "Open seasonally in summer.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Fairholme Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98363",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Fairholme Walk In Site 01",
+                  "altText": "A campsite with a picnic table. Beyond the trees, glittering turquoise water.",
+                  "caption": "A walk-in campsite at Fairholme Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/03632CA7-ED57-9CA3-B5A3ABE1B9E3501C.jpg"
+              },
+              {
+                  "credit": "NPS Photo/J. Preston",
+                  "crops": [],
+                  "title": "Sunrise from Fairholme Campground 01",
+                  "altText": "A lake surrounded by mountains reflects a brilliant orange sunrise.",
+                  "caption": "Sunrise from Fairholme Campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/037FA06C-F991-B07B-2AE95E7430A002AC.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "88",
+          "campsites": {
+              "totalSites": "88",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible restrooms in Loop A and C and paved campsites in Loop A.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Cell phone reception dependent on service provider.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Maximum length for RVs and vehicles pulling trailers is 21 feet.",
+              "rvMaxLength": "21",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible restrooms in Loop A and C and paved campsites in Loop A.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "2EA47E1B-6EA8-476D-A491-376F850EF923",
+          "url": "https://www.nps.gov/olym/planyourvisit/east-fork-quinault-river-trail.htm",
+          "name": "Graves Creek Campground",
+          "parkCode": "olym",
+          "description": "Located in the Quinault Rain Forest, relax near a serene stream at Graves Creek Campground.",
+          "latitude": "47.573831087",
+          "longitude": "-123.576795443",
+          "latLong": "{lat:47.573831087, lng:-123.576795443}",
+          "audioDescription": "Graves Creek Campground. 1 minute A brown and white sign at the entrance to the campground reads: Graves Creek Campground. The road veers left where a second sign reads: Self Registration Campground. Fee $20 per night. Access pass $10. 1. Select and note site number. 2. Register and deposit fee at board. Campsites with picnic tables and in-ground fire pits are located along the campground road. The two brown rectangular restroom buildings within the campground are no longer in use and are padlocked. Open for use is an all gender, single stall, accessible restroom building with a vault toilet. Enter on the left front side beneath an open alcove. The door to the restroom is on the right. Food storage lockers and dumpsters are in front of the closed restroom building at the far end of the campground loop road.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "FB287C4A-9E96-47D5-930B-E4D66D823260",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "Yes - seasonal"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "3605653130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "20.00",
+                  "description": "$20.00 per a night.",
+                  "title": "Graves Creek Campground"
+              }
+          ],
+          "directionsOverview": "Graves Creek campground is located in the Quinault Rain Forest along the Graves Creek Road. This road is accessible from both the North Shore and South Shore roads that at Lake Quinault. The Lake Quinault area is accessible from Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Located in the Quinault Rain Forest, relax near a serene stream at Graves Creek Campground. Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Graves Creek Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Graves Creek Campground 01",
+                  "altText": "A campsite with a picnic table among tall trees.",
+                  "caption": "A site at Graves Creek Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/03AF3908-0982-6FD4-8DE2E7CCC386F59E.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "30",
+          "campsites": {
+              "totalSites": "30",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible vault toilet. No paved campsites or picnic table extensions.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Very limited cell phone service.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "0",
+              "rvInfo": "RVs and trailers are prohibited on Graves Creek Road.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible vault toilet. No paved campsites or picnic table extensions.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Primitive Camping Areas"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "C4C0ACBD-0AE4-4970-9C6A-E75A0153050D",
+          "url": "https://www.nps.gov/olym/planyourvisit/heart-o-the-hills-area-brochure.htm",
+          "name": "Heart O' the Hills Campground",
+          "parkCode": "olym",
+          "description": "Surrounded by old growth forest, Heart O' the Hills offers summer ranger programs and great family fun",
+          "latitude": "48.0362664284",
+          "longitude": "-123.429967329",
+          "latLong": "{lat:48.0362664284, lng:-123.429967329}",
+          "audioDescription": "Heart O’ The Hills Campground Entrance. 30 seconds At the entrance to the campground a brown wooden sign attached to short log posts has a left pointing arrow and white text that reads, Heart O’ the Hills Campground. Another brown sign reads: Welcome to Heart O’ the Hills Campground. Fee $20 per night. 1. Select site and note number. 2. Register at bulletin board near restrooms. 3. Deposit fee in metal container.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "7F87D874-80E6-4298-B788-DCA6B20685C3",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - year round",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - year round"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "Yes - seasonal"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "24.00",
+                  "description": "$24.00 per night.",
+                  "title": "Heart O' the Hills Campground Fee"
+              }
+          ],
+          "directionsOverview": "Heart O'the Hills Campground is located off of Hurricane Ridge Road. Hurricane Ridge Road is accessible from Port Angeles via Race Street and Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round. Walk-in only during periods of heavy snowfall. Check campground status before your visit: http://www.nps.gov/olym/planyourvisit/campgroundstatus.htm",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Heart O' the Hills Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "Hurricane Ridge Road",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "heart campground site",
+                  "altText": "A campsite with picnic table among tall trees.",
+                  "caption": "A site at Heart o'the Hills Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3270F39D-FF73-DCC3-584961C8F6991FA8.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "97",
+          "campsites": {
+              "totalSites": "97",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible restrooms in loops A and C, paved campsites, and picnic table extensions.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited cell phone service.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Campsites can accommodate RVs and vehicles with trailers up to 21 feet, a few sites for up to 35 feet.",
+              "rvMaxLength": "35",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible restrooms in loops A and C, paved campsites, and picnic table extensions.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "B4D16CA6-183B-492C-BDEA-A41DA6349EDD",
+          "url": "https://www.nps.gov/olym/planyourvisit/hoh-rain-forest-area-brochure.htm",
+          "name": "Hoh Campground",
+          "parkCode": "olym",
+          "description": "Surround yourself with moss and ancient trees in this temperate rain forest. Hoh campground offers summer ranger programs and some riverside campsites along the Hoh River. Reservations in summer, first come first served the rest of the year.",
+          "latitude": "47.8583524952499",
+          "longitude": "-123.935540122439",
+          "latLong": "{lat:47.8583524952499, lng:-123.935540122439}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "C80E2D8F-306D-495F-9136-700BE5F0DA76",
+          "reservationInfo": "Reservations accepted for June 1st through September 15th for 2021. First come, first served the rest of the year.",
+          "reservationUrl": "http://www.recreation.gov/camping/campgrounds/247592",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - year round",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - year round"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "Yes - year round"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "24.00",
+                  "description": "$24.00 per night.",
+                  "title": "Hoh Campground Fee"
+              }
+          ],
+          "directionsOverview": "Hoh campground is located at the terminus of the Upper Hoh Road. The Upper Hoh Road is accessible via Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Hoh Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98331",
+                  "city": "Forks",
+                  "stateCode": "WA",
+                  "line1": "Hoh Campground",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "98331",
+                  "city": "Forks",
+                  "stateCode": "WA",
+                  "line1": "Hoh Campground",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Hoh Campground 01",
+                  "altText": "A campsite with picnic table surrounded by mossy trees and ferns.",
+                  "caption": "A site in the Hoh Rain Forest Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/03F923E1-B559-99B1-E46C36DD6BFF9A0C.jpg"
+              },
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Hoh Campground 01",
+                  "altText": "A campsite with a tent in the grassy field",
+                  "caption": "A campsite in the Hoh Rain Forest Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/041434E9-B735-ED2F-F6A08A63DA69F00F.jpg"
+              },
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Hoh Campground 03",
+                  "altText": "A path through grass to a blue river.",
+                  "caption": "A path to the Hoh River from the campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/04201904-EB6F-AECE-090F21D6C92779B2.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "78",
+          "numberOfSitesFirstComeFirstServe": "78",
+          "campsites": {
+              "totalSites": "78",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible restrooms, paved campsites, and picnic table extensions.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone reception.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Campsites can accommodate RVs and vehicles with trailers up to 21 feet, a few sites for up to 35 feet.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible restrooms, paved campsites, and picnic table extensions.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "F8DFAB23-EFE0-4F31-98D0-CD5A871596A9",
+          "url": "https://www.nps.gov/olym/planyourvisit/kalaloch-area-brochure.htm",
+          "name": "Kalaloch Campround",
+          "parkCode": "olym",
+          "description": "Oceanside camp at Kalaloch with some sites overlooking the Pacific Ocean. Online reservations accepted for peak season. Check recreation.gov for current season dates. All sites are first-come, first-served in off season.",
+          "latitude": "47.6127053601112",
+          "longitude": "-124.375074131062",
+          "latLong": "{lat:47.6127053601112, lng:-124.375074131062}",
+          "audioDescription": "Kalaloch Campground. 1 minute A brown wooden sign with white text reads: Welcome to Kalaloch Campground. A left pointing arrow indicates the direction for Loops A, B, and C and a right pointing arrow indicates the direction for Loops D, E, and F. Other text reads: Campsite occupants only 10 PM to 6 AM. RV dump station to the right. Accessible restrooms and water stations are located near each loop. A bulletin board has posted notices pertaining to pet regulations, Fireworks, in an emergency contact a ranger or dial 911, nearest services, cougars, campground, ranger programs, tides, beach regulations, tidepool life, fishing regulations, and coastal safety.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "1E4EFDC0-2EA5-4CEC-8987-C21DCB2B0616",
+          "reservationInfo": "Online reservations accepted for peak season. All sites are first-come, first-served in off season. Check recreation.gov for current season dates.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232464",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - year round",
+              "dumpStation": "Yes - year round",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - year round"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [
+              {
+                  "cost": "24.00",
+                  "description": "$24 per night.",
+                  "title": "Kalaloch Campground Fee"
+              }
+          ],
+          "directionsOverview": "Kalaloch Campground is located 36 miles south of Forks off of Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Kalaloch Campround"
+              }
+          ],
+          "addresses": [],
+          "images": [
+              {
+                  "credit": "NPS Photo/C. Bubar",
+                  "crops": [],
+                  "title": "Kalaloch Campground 01",
+                  "altText": "A campsite with a picnic table and tent, overlooking the ocean.",
+                  "caption": "A site at Kalaloch Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/04344A43-ABDD-EFD7-EA6FCB1FF9907F87.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park's website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "170",
+          "numberOfSitesFirstComeFirstServe": "170",
+          "campsites": {
+              "totalSites": "170",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible restrooms in Loops A & D. Paved campsites and picnic table extensions available in Loop D.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Cell phone reception dependent on service provider.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Campsites can accommodate RVs and vehicles with trailers up to 21 feet. A few sites can accommodate up to 35 feet.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible restrooms in Loops A & D. Paved campsites and picnic table extensions available in Loop D.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "1F9A5CA2-8D09-4444-ABD6-532B22C404B7",
+          "url": "https://www.nps.gov/olym/planyourvisit/mora-area-brochure.htm",
+          "name": "Mora Campground",
+          "parkCode": "olym",
+          "description": "Situated in a coastal forest, some sites offer views views of the Quillayute River. Mora is located two miles from Rialto Beach.",
+          "latitude": "47.9168610105267",
+          "longitude": "-124.60593738701",
+          "latLong": "{lat:47.9168610105267, lng:-124.60593738701}",
+          "audioDescription": "Mora Campground Registration Loop A & B. 2 minutes Along the loop road is a roof covered bulletin board kiosk on a concrete surface. In the center is a self-pay camping registration board, a vertical box with 54 square sections in six horizontal rows. Each square is numbered and corresponds to an individual campsite. Each row is covered by a hard, clear plastic strip with slots for dropping registration payment receipts into individual squares. To the left of the registration board is a brown box with a lid holding campground registration envelopes. A 3-foot-tall cannister for depositing payment envelopes stands in front of and to the left of the board. It has a slot at the top for slipping in the envelope. Posted to the left of the registration board is payment information and campground registration instructions, along with a site map of the campground. Above the board a notice reads, Firewood not available in campground. Purchase outside of park. To the right of the board are campground regulations and a tide chart. A recycle bin and garbage dumpsters are to the right of the kiosk on a gravel surface. To the left of the kiosk, a concrete sidewalk leads to a wide patio area with a white, rectangular restroom building with a blue metal roof. The women’s room is on the left short side of the building, and the men’s room is on the right front side of the building. Across the sidewalk from the women’s room is a square, 3-foot-tall stone water station. It’s two spigots face the restroom. A sign on top reads, no dishwashing. The sidewalk loops in front of the water station and leads back to the road. Be advised. The concrete sidewalk ends after about 20 feet, transitioning to gravel, then asphalt. In places along the asphalt section, cracks and frost heaves create an uneven surface.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "03BB8B88-C33D-477E-86CB-472373B57651",
+          "reservationInfo": "All campsites are reservable during the peak season online at www.recreation.gov up to 6 months in advance. Any unreserved or cancelled sites will be sold in the field at the Mora Ranger Station on a first-come, first-served basis. Campsites are first-come, first-served the rest of the year.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247591",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - year round",
+              "dumpStation": "Yes - year round",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - year round"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "24.00",
+                  "description": "$24.00 per a night.",
+                  "title": "Mora Campground Fee"
+              }
+          ],
+          "directionsOverview": "The campground is located off of Mora Road via Highway 110. Highway 110 is accessible from Highway 101, a few miles north of Forks, WA.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Mora Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98331",
+                  "city": "Forks",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Mora Campground 01",
+                  "altText": "A campsite with picnic table among very tall trees.",
+                  "caption": "A campsite at Mora Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/044D7936-F5C0-4E6D-87B9447CE54C45AE.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "94",
+          "numberOfSitesFirstComeFirstServe": "94",
+          "campsites": {
+              "totalSites": "94",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Accessible restrooms, paved campsites, and picnic tables with extensions are available in Loop B.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited cell phone reception depending on service provider.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Campsites can accommodate RVs and vehicles with trailers up to 21 feet. Some sites can accommodate up to 35 feet.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Accessible restrooms, paved campsites, and picnic tables with extensions are available in Loop B.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "FFD42463-76E6-4540-898A-0A70A8A8F747",
+          "url": "https://www.nps.gov/olym/planyourvisit/quinault-area-brochure.htm",
+          "name": "North Fork Campground",
+          "parkCode": "olym",
+          "description": "Surrounded by temperate rain forest, this small and remote campground is a great spot for campers seeking solitude.",
+          "latitude": "47.5698520216",
+          "longitude": "-123.650803296",
+          "latLong": "{lat:47.5698520216, lng:-123.650803296}",
+          "audioDescription": "North Fork Campground. 2 minutes At a junction in the road, a brown sign with a right pointing arrow reads: North Fork Campground. Down this dirt road on the right a second sign reads: Welcome to North Fork Campground. Fee $15 per night. 1. Select site. 2. Register at bulletin board. 3. Deposit fee in metal canister. 4. Place stub on dashboard. Further along a third sign reads: No garbage service. Please pack it out. Soon, on both sides of the road, numbered campsites begin. The road ends in a loop where more campsites ring the perimeter. In the center of the loop is an island with low growing plants, a large pine tree, a brown metal food storage locker, a bulletin board, and payment canister. The bulletin board is roof covered and has posted notices on both sides. The side facing the entrance road includes information about day hikes at Quinault; wildlife, food, and your safety; stock use; river crossings; pet regulations; firearms and weapons; and cougars in the area. On the opposite side is a box with a lid holding camping permits. Posted above are campground registration instructions and payment instructions. Other notices include campground and fishing regulations, nearest services, how to help preserve your park, and to contact a park ranger or dial 911 in an emergency. On the food storage locker behind the bulletin board a sign reads: Shared food storage for walk-in sites or campers with no vehicles. Place all food and scented items in locker anytime they are not in use. Please do not use for garbage. Thank you. Campsite surfaces are flat and mostly grass and dirt. Each site has a picnic table and in-ground metal fire pit. The sites are nestled in a forest of young and old pine trees. Fallen trees, covered with green moss, lay on a dense carpet of tall ferns and other low growing plants.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "0CBBB165-7323-4919-A30F-F0ED928510CF",
+          "reservationInfo": "First come, first served campground.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "20.00",
+                  "description": "$20.00 per night.",
+                  "title": "North Fork Campground Fee"
+              }
+          ],
+          "directionsOverview": "North Fork Campground is accessed via the North Shore Road along Lake Quinault. The Lake Quinault area can be accessed via Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "North Fork Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "North Fork Campground 01",
+                  "altText": "A campsite with picnic table nestled among conifer trees and ferns.",
+                  "caption": "A campsite at North Fork Campground nestles among trees and ferns.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/046E3902-0051-47AD-371308EC81ECBE93.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park's website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "9",
+          "campsites": {
+              "totalSites": "9",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Not ADA accessible.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "No cell phone reception.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "0",
+              "rvInfo": "Gravel road. Large RVs not recommended; tent camping only.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Not ADA accessible.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "Unpaved Roads - 4WD/High clearance required"
+              ],
+              "classifications": [
+                  "Designated Primitive Campsites"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "24D983CD-F853-49B3-A368-25DC3832F628",
+          "url": "https://www.nps.gov/olym/planyourvisit/lake-ozette-area-brochure.htm",
+          "name": "Ozette Campground",
+          "parkCode": "olym",
+          "description": "Adjacent to Lake Ozette, this small campground is great for those that enjoy lakeside camping and water activities",
+          "latitude": "48.1532400873933",
+          "longitude": "-124.667693189397",
+          "latLong": "{lat:48.1532400873933, lng:-124.667693189397}",
+          "audioDescription": "Ozette Campground / Registration. 1 minute At the entrance to the campground on the left a brown sign with white text reads: Campsite Limit. 2 vehicles 8 persons. Use numbered campsites. Below, a right pointing arrow with the text: One way. On the right side of the road is a roof covered bulletin board with a map of the area and information about campground registration and campground regulations; boating and pet regulations; marine debris; nearest services; in an emergency, contact a park ranger or dial 911; and bear and cougar awareness. Attached to the right leg of the bulletin board is a lidded box holding campground fee envelopes. A three-foot-tall metal cannister with an envelope slot at the top stands in front of the board. Additional information about fishing and preservation is posted on the back of the bulletin board. To the left of the bulletin board is a water spigot.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "7C6CF9DD-7D7A-4076-9B0B-5C2E290D9861",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Vault Toilets - year round",
+                  "Flush Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "360-565-3130",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "Olympic National Park Visitor Center",
+                      "emailAddress": "olym_visitor_center@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "20.00",
+                  "description": "$20.00 per night.",
+                  "title": "Ozette Campground Fee"
+              }
+          ],
+          "directionsOverview": "Ozette Campground is located near Lake Ozette along the Hoko-Ozette Road. The Hoko-Ozette Road is accessible from Highways 112 and 113, both of which connect to Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round. Flooding from the lake can occur in the winter and cause the closure of some sites or the whole campground.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Ozette Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/D. Sullivan",
+                  "crops": [],
+                  "title": "Ozette Campground 01",
+                  "altText": "A grassy campsite with picnic table.",
+                  "caption": "A campmsite at Ozette Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/048C2A4E-AE83-054F-AA74C7DAEA34E0F6.jpg"
+              },
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Ozette Campground 02 Deer",
+                  "altText": "Two deer passing through a grassy campsite with a picnic table. A lake is visible through the trees.",
+                  "caption": "Blacktail deer pass through a campsite at Ozette Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/049DE9C3-FF7F-0205-4B4DBE298B87CE85.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "15",
+          "campsites": {
+              "totalSites": "15",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "There are no accessible restrooms in the campground. An accessible restroom is located near the ranger station and available in the summer season. The campsites are unpaved. One campsite has a picnic table extension.",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone reception.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "1",
+              "rvInfo": "Maximum length for vehicles with trailers or RVs is 21 feet.",
+              "rvMaxLength": "21",
+              "additionalInfo": "Ozette Campground is primitive in the off-season. Flush toilets and dinking water are available in summer only.",
+              "trailerMaxLength": "21",
+              "adaInfo": "There are no accessible restrooms in the campground. An accessible restroom is located near the ranger station and available in the summer season. The campsites are unpaved. One campsite has a picnic table extension.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Limited Development Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "E4F0BEC0-D410-41AA-902D-41A539DEA564",
+          "url": "https://www.nps.gov/olym/planyourvisit/queets-area-brochure.htm",
+          "name": "Queets Campground",
+          "parkCode": "olym",
+          "description": "Relax in this secluded campground near the Queets River. This campground is only accessible from the Upper Queets River Road due to a past mudslide",
+          "latitude": "47.6259946274311",
+          "longitude": "-124.017776901915",
+          "latLong": "{lat:47.6259946274311, lng:-124.017776901915}",
+          "audioDescription": "Queets Campground. 1 minute A brown and white sign at the entrance to the campground reads, Queets Campground. Elevation 275 feet. Another sign reads, 14-day camping limit. In a clearing with a grass and gravel surface is a brown accessible, all gender, single stall restroom building with a vault toilet. Enter on the right. Bulletin boards within the campground offer information about park regulations, bear awareness, and campground regulations. Posted notices state that harvesting of forest products is prohibited, fireworks are not permitted, and pets are not allowed on trails or in the backcountry. A sign provides the camping fee per night. Payment envelopes are in a box attached to the bulletin board frame, and a 3-foot-tall square metal box with a slot near the top stands in front of the bulletin board for depositing your payment. Individual campsites have a picnic table and an in-ground fire grate.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "64BDB3E7-4D8F-42A7-AECE-525E5FA7A665",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [
+              {
+                  "cost": "15.00",
+                  "description": "$15.00 per a night.",
+                  "title": "Queets Campground Fee"
+              }
+          ],
+          "directionsOverview": "Queets Campground is only accessible from the Upper Queets Road. Upper Queets Road is accessed from Road 21, which connects to Highway 101.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Queets Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/E. Goode",
+                  "crops": [],
+                  "title": "Queets Campground 01",
+                  "altText": "A campground with a fire pit and picnic tables among conifer trees, beside a rushing river.",
+                  "caption": "A riverside campsite in the Queets Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/04D6F48B-D443-F92E-DBD03257BBB5DCC1.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park's website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "20",
+          "campsites": {
+              "totalSites": "20",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone reception.",
+              "fireStovePolicy": "Fires and stoves allowed. Fires must be in designated fire grates at all times. Always check for any fire bans due to dry or hazardous conditions before your visit.",
+              "rvAllowed": "0",
+              "rvInfo": "",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "",
+              "trailerAllowed": "0",
+              "accessRoads": [],
+              "classifications": []
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "061815D1-A285-4DF5-9079-32F6B4990CF5",
+          "url": "https://www.nps.gov/olym/planyourvisit/kalaloch-area-brochure.htm",
+          "name": "South Beach Campground",
+          "parkCode": "olym",
+          "description": "Positioned on a bluff overlooking the Pacific Ocean, South Beach offers panoramic ocean views and beach access.",
+          "latitude": "47.5660233967878",
+          "longitude": "-124.361387859395",
+          "latLong": "{lat:47.5660233967878, lng:-124.361387859395}",
+          "audioDescription": "South Beach Campground. 30 seconds A long entrance road ends at an oval campground loop with a grassy center. The ocean is on the left. Midway around the loop on the right is a rectangular restroom building constructed of stone with a blue metal roof. The front of the building faces the ocean. The restroom doors are behind stone partitions on each short side of the building, the women’s room on the left and the men’s room on the right. A two-sided bulletin board with campground and personal safety information stands opposite the men’s room door where two trash dumpsters are also located. Lining the loop are campsites and picnic tables.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "3110B7AF-8BC3-4655-93A4-94257BFE981F",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Vault Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [
+              {
+                  "cost": "15.00",
+                  "description": "$15.00 per a night.",
+                  "title": "South Beach Campground Fee"
+              }
+          ],
+          "directionsOverview": "South Beach Campground is located off of Highway 101 in the Kalaloch Area. The Kalaloch Area is 36 miles south of Forks, WA.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [
+                      {
+                          "exceptionHours": {
+                              "wednesday": "All Day",
+                              "monday": "All Day",
+                              "thursday": "All Day",
+                              "sunday": "All Day",
+                              "tuesday": "All Day",
+                              "friday": "All Day",
+                              "saturday": "All Day"
+                          },
+                          "startDate": "2023-05-21",
+                          "name": "Summer Season 2021",
+                          "endDate": "2023-09-27"
+                      },
+                      {
+                          "exceptionHours": {
+                              "wednesday": "Closed",
+                              "monday": "Closed",
+                              "thursday": "Closed",
+                              "sunday": "Closed",
+                              "tuesday": "Closed",
+                              "friday": "Closed",
+                              "saturday": "Closed"
+                          },
+                          "startDate": "2022-09-28",
+                          "name": "Closed for winter",
+                          "endDate": "2023-05-20"
+                      },
+                      {
+                          "exceptionHours": {
+                              "wednesday": "Closed",
+                              "monday": "Closed",
+                              "thursday": "Closed",
+                              "sunday": "Closed",
+                              "tuesday": "Closed",
+                              "friday": "Closed",
+                              "saturday": "Closed"
+                          },
+                          "startDate": "2022-09-28",
+                          "name": "Closed for winter",
+                          "endDate": "2023-05-20"
+                      }
+                  ],
+                  "description": "Season: late May - late September. Closed during winter.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "South Beach Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98362",
+                  "city": "Port Angeles",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/C. Bubar",
+                  "crops": [],
+                  "title": "South Beach Campground 01",
+                  "altText": "Picnic tables on a bluff overlooking the ocean.",
+                  "caption": "South Beach Campground, overlooking the Pacific Ocean.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/04F2BA65-D999-0BBE-BC40F8384C3A0CCE.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park's website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "55",
+          "campsites": {
+              "totalSites": "55",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone reception.",
+              "fireStovePolicy": "Fires and stoves allowed. All fires must be contained in designated fire grates at all times. Always check for any area fire bans during times of dry conditions before visiting.",
+              "rvAllowed": "0",
+              "rvInfo": "",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "",
+              "trailerAllowed": "0",
+              "accessRoads": [],
+              "classifications": []
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "368E0896-3B0D-4331-8882-5FBABBEF7739",
+          "url": "https://www.nps.gov/olym/planyourvisit/staircase-area-brochure.htm",
+          "name": "Staircase Campground",
+          "parkCode": "olym",
+          "description": "Camp near the Skokomish River and enjoy old-growth forest at Staircase. Summer ranger programs and riverside campsites available.",
+          "latitude": "47.5153731343",
+          "longitude": "-123.32966806",
+          "latLong": "{lat:47.5153731343, lng:-123.32966806}",
+          "audioDescription": "Staircase Campground. 1 minute At the entrance to the Staircase Campground is a large brown sign with white text that reads, Welcome to Staircase Campground. 1. Choose a vacant site to show occupancy. 2. Leave something at site to show occupancy. 3. Return here to registration board. 4. Pay fee as directed and place stub in registration board. 5. Set up camp. 6. Keep receipt stub as proof of payment. Another sign with an upward pointing arrow indicates the direction of travel to reach the campground and restrooms. Text on the sign reads, Two vehicles, eight persons per site, max. Park and camp on hardened sites. Pets allowed on leash. Within the campground are accessible restrooms and brown metal bins for recycling aluminum, only. Brown metal food storage lockers are available in the campground. A sign on the front of the box reads: Shared food storage for walk-in sites or campers with no vehicles. Place all food and scented items in the locker anytime they are not in use. Please do not use for garbage. Place garbage in dumpsters. Thank you. Campsites have a picnic tables and in-ground metal fire pits.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "85073AF7-335F-4B50-9504-3CFCFF4112B3",
+          "reservationInfo": "First come, first served.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - seasonal",
+                  "Vault Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - year round",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [
+              {
+                  "cost": "20.00",
+                  "description": "$20.00 per a night.",
+                  "title": "Staircase Campground Fee"
+              }
+          ],
+          "directionsOverview": "Staircase Campground is located Northwest of Hoodsport, WA. It is accessed by Highway 119, which will then turn into an unpaved road. Highway 119 connects to Highway 101 in Hoodsport, WA.",
+          "directionsUrl": "http://www.nps.gov/olym/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Staircase Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "98548",
+                  "city": "Hoodsport",
+                  "stateCode": "WA",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo/C. Bubar",
+                  "crops": [],
+                  "title": "Staircase Campground 01",
+                  "altText": "A riverside campsite with many large, yellow maple leaves.",
+                  "caption": "A riverside campsite in the Staircase Campground in the fall.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/050B53D8-AD57-1CD1-6DF66514113F24A8.jpg"
+              }
+          ],
+          "weatherOverview": "Weather and conditions at Olympic can change quickly. For a safe and enjoyable trip, check road, campground, weather, and trail conditions before your visit. Current road, campground, and weather information is also available by calling (360) 565-3131 or visiting the park's website at http://www.nps.gov/olym/planyourvisit/current-conditions.htm",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "49",
+          "campsites": {
+              "totalSites": "49",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "",
+              "internetInfo": "No internet access.",
+              "cellPhoneInfo": "Limited to no cell phone reception.",
+              "fireStovePolicy": "Fires and stoves are permitted. Fires must be in designated fire grates at all times. Always check for any fire bans during dry weather conditions before your visit.",
+              "rvAllowed": "0",
+              "rvInfo": "",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "",
+              "trailerAllowed": "0",
+              "accessRoads": [],
+              "classifications": []
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      }
+  ]
+}
