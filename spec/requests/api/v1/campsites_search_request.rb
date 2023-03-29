@@ -8,7 +8,7 @@ RSpec.describe 'CampsitesSearch API' do
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&q=Rocky")
       .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_name.json'), headers: {})
 
-    stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&parkCode=olym")
+    stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&parkCode=OLYM")
       .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_park.json'), headers: {})
   end
 
@@ -34,6 +34,7 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:description)
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
+        expect(campsite[:attributes]).to have_key(:cost)
       end
     end
   end
@@ -61,6 +62,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:description)
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
+        expect(campsite[:attributes]).to have_key(:cost)
+
       end
     end
   end
@@ -76,7 +79,7 @@ RSpec.describe 'CampsitesSearch API' do
       expect(campsite_details).to be_a(Hash)
       expect(campsite_details).to have_key(:data)
       expect(campsite_details[:data]).to be_an(Array)
-      expect(campsite_details[:data].count).to eq(2)
+      expect(campsite_details[:data].count).to eq(12)
       
       campsite_details[:data].each do |campsite|
         expect(campsite).to have_key(:id)
@@ -88,6 +91,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:description)
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
+        expect(campsite[:attributes]).to have_key(:cost)
+
       end
     end
   end

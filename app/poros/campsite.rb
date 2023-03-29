@@ -29,7 +29,7 @@ class Campsite
     @booking_link = camp_data[:reservationUrl]
     @description = camp_data[:description]
     @image_array = camp_data[:images] #may need additional method
-    @cost = camp_data[:fees][0][:cost] #may need adjustment
+    @cost = camp_data[:fees] #may need adjustment
     @number_of_reservation_sites = camp_data[:campsites][:totalSites]
     @reservation_info = camp_data[:reservationInfo]
     @toilets = camp_data[:amenities][:toilets]
