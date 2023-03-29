@@ -6,8 +6,8 @@ RSpec.describe CampsiteSearch do
   end
   
   it 'exists and has attributes' do 
+    # binding.pry
     campsites = CampsiteFacade.get_campsites_by_state('CO')
-
     expect(campsites).to be_an(Array)
     expect(campsites[0]).to be_a(CampsiteSearch)
     expect(campsites[0].name).to eq("Aspenglen Campground")
