@@ -1,4 +1,8 @@
 class Api::V1::FavoritesController < ApplicationController
+  def index
+    user = User.find_by(id: params[:user_id])
+    render json: FavoritesSerializer.new(user.favorites)
+  end
 
   def create
     if User.find_by(id: params[:user_id])
@@ -8,7 +12,7 @@ class Api::V1::FavoritesController < ApplicationController
 
     user = User.find_by(id: params[:user_id])
     favorite = user.favorites.new(favorite_params)
-    
+
     if favorite.save
       render json: { success: "Favorite added successfully" }, status: :created
     else 
