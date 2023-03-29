@@ -23,6 +23,15 @@ class Api::V1::FavoritesController < ApplicationController
     end
   end
 
+  def destroy
+    if favorite = Favorite.find_by(id: params[:id])
+      favorite.destroy
+      render json: { success: "Favorite deleted successfully" }, status: :ok
+    else
+      render json: { errors: "Favorite not found" }, status: :not_found
+    end
+  end
+
   private
 
   def favorite_params 
