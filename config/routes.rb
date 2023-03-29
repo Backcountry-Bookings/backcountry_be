@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do 
     namespace :v1 do
-      resources :campsites, only: [:index, :show]
+      resources :campsites, only: :show
+      resources :favorites, only: [:index, :create, :destroy]
     end
   end
 end
