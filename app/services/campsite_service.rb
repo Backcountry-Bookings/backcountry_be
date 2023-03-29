@@ -4,8 +4,16 @@ class CampsiteService
     parse(conn.get("/api/v1/campgrounds?q=#{camp_id}&limit=1"))
   end
 
-  def self.campsite_search_by_state(state_code)
+  def self.find_by_state(state_code)
     parse(conn.get("/api/v1/campgrounds?stateCode=#{state_code}"))
+  end
+
+  def self.find_by_name(name)
+    parse(conn.get("/api/v1/campgrounds?q=#{name}"))
+  end
+
+  def self.find_by_park(park)
+    parse(conn.get("/api/v1/campgrounds?parkCode=#{park}"))
   end
 
   def self.parse(response)

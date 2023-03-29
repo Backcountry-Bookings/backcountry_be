@@ -12,4 +12,38 @@ RSpec.describe 'campsite facade' do
       expect(campsite).to be_a(Campsite)
     end
   end
+
+  describe '#get_campsites_by_state' do
+    it 'gets the campsites by state' do
+      campsites = CampsiteFacade.get_campsites_by_state('CO')
+
+      expect(campsites).to be_a(Array)
+
+      campsites.each do |campsite|
+        expect(campsite).to be_a(CampsiteSearch)
+      end
+    end
+  end
+
+  describe '#get_campsites_by_name' do
+    it 'returns the campsites by name' do
+      campsites = CampsiteFacade.get_campsites_by_name('Rocky')
+      expect(campsites).to be_a(Array)
+
+      campsites.each do |campsite|
+        expect(campsite).to be_a(CampsiteSearch)
+      end
+    end
+  end
+
+  describe '#get_campsites_by_park' do
+    it 'returns the campsites by park name' do
+      campsites = CampsiteFacade.get_campsites_by_park('olympic')
+      expect(campsites).to be_a(Array)
+
+      campsites.each do |campsite|
+        expect(campsite).to be_a(CampsiteSearch)
+      end
+    end
+  end
 end
