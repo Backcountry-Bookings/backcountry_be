@@ -47,10 +47,33 @@ RSpec.describe "Favorite" do
       expect(user.favorites.count).to eq(2)
 
       get "/api/v1/favorites?user_id=1"
-
+    
       favorites = JSON.parse(response.body, symbolize_names: true)
 
       expect(favorites).to be_a(Hash)
+      expect(favorites).to have_key(:data)
+      expect(favorites[:data]).to be_an(Array)
+      expect(favorites[:data].count).to eq(2)
+      expect(favorites[:data].first).to have_key(:id)
+      expect(favorites[:data].first[:id]).to be_a(String)
+      expect(favorites[:data].first).to have_key(:type)
+      expect(favorites[:data].first[:type]).to be_a(String)
+      expect(favorites[:data].first).to have_key(:attributes)
+      expect(favorites[:data].first[:attributes]).to be_a(Hash)
+      expect(favorites[:data].first[:attributes]).to have_key(:campsite_name)
+      expect(favorites[:data].first[:attributes]).to have_key(:campsite_id)
+      expect(favorites[:data].first[:attributes]).to have_key(:campsite_details)
+      expect(favorites[:data].first[:attributes]).to have_key(:image)
+    end
+
+    it 'returns an error if user is not found' do
+      get "/api/v1/favorites?user_id=99"
+
+      message = JSON.parse(response.body, symbolize_names: true)
+
+      expect(message).to be_a(Hash)
+      expect(message).to have_key(:errors)
+      expect(message[:errors]).to eq("User not found")
     end
   end
 end
