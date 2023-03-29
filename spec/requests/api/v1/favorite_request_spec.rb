@@ -2,14 +2,12 @@ require "rails_helper"
 
 RSpec.describe "Favorite" do
   describe 'a user can add a favorite campsite' do 
-    it 'creates a campsite favorite successfully' do 
-      user = User.create(name: "Bob", id: 1)
-
-      expect(user.favorites.empty?).to eq(true)
-
+    it 'creates a campsite favorite successfully' do
       headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
       body =  { campsite_name: "Aspenglen Campground", campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", campsite_details: "Aspenglen Campground is reservation only. Visit Recreation.gov.", image: "https://www.nps.gov/romo/planyourvisit/agcg.htm" }
-      post "/api/v1/users/1/favorites", params: body.to_json, headers: headers
+      post "/api/v1/favorites?user_id=1", params: body.to_json, headers: headers
+
+      user = User.first
 
       expect(response).to be_successful
       expect(response.status).to eq(201)
@@ -21,14 +19,12 @@ RSpec.describe "Favorite" do
       expect(response_details[:success]).to eq("Favorite added successfully")
     end
 
-    it 'does not create a favorite if campsite_id is not present' do 
-      user = User.create(name: "Bob", id: 1)
-
-      expect(user.favorites.empty?).to eq(true)
-
+    it 'does not create a favorite if campsite_id is not present' do
       headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
       body =  { campsite_name: "Aspenglen Campground", campsite_details: "Aspenglen Campground is reservation only. Visit Recreation.gov.", image: "https://www.nps.gov/romo/planyourvisit/agcg.htm" }
-      post "/api/v1/users/1/favorites", params: body.to_json, headers: headers
+      post "/api/v1/favorites?user_id=1", params: body.to_json, headers: headers
+
+      user = User.first
 
       expect(response).to_not be_successful
       expect(response.status).to eq(400)
