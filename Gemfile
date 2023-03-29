@@ -31,6 +31,7 @@ gem 'rack-cors'
 gem 'faraday'
 gem 'figaro'
 gem 'jsonapi-serializer'
+gem 'aws-sdk-s3', require: false
 
 group :test do
   gem 'webmock'
