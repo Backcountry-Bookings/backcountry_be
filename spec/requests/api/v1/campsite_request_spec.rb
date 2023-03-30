@@ -41,6 +41,7 @@ RSpec.describe 'Campsite API' do
       expect(campsite_details[:data][:attributes]).to have_key(:firewood_available)
       expect(campsite_details[:data][:attributes]).to have_key(:wheelchair_access)
       expect(campsite_details[:data][:attributes]).to have_key(:weather_info)
+      expect(campsite_details[:data][:attributes]).to have_key(:park_name)
     end
   end
 end
