@@ -33,5 +33,7 @@ RSpec.describe Campsite do
     expect(campsite.firewood_available).to eq("Yes - seasonal")
     expect(campsite.wheelchair_access).to eq("Two ADA sites are offered for those customers with a disability or otherwise limited mobility who would benefit from the accessibility design features.")
     expect(campsite.weather_info).to eq("Average High and Low Temperatures (Fahrenheit): May: 62 / 34 June: 73 / 41 July: 78 / 46 August: 77 / 45 September: 70 / 38")
+    expect(campsite.park_code).to eq("romo")
+    expect(campsite.park_name).to eq("ROCKY MOUNTAIN")
   end
 end
