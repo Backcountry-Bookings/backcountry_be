@@ -15,5 +15,8 @@ RSpec.describe CampsiteSearch do
     expect(campsites[0].description).to eq("Aspenglen Campground is reservation only. Visit Recreation.gov. Aspenglen opens for the 2023 season on May 26. Timed Entry Permits are included with your camping reservation. For Aspenglen Campers, your reservation includes access to Bear Lake Road. Campers will be able to initially enter the park beginning at 1 p.m. on the first day of your camping reservation. If you plan to enter the park earlier in the day, you will have to enter the park outside of the times when Timed Entry Permits are in effect.")
     expect(campsites[0].images).to be_an(Array)
     expect(campsites[0].images[0][:url]).to eq("https://www.nps.gov/common/uploads/structured_data/3FAA6E89-1DD8-B71B-0B170E56BD4ED00D.jpg")
+    expect(campsites[0].state_code).to eq("CO")
+    expect(campsites[2].state_code).to eq(nil)
+    expect(campsites[0].park_name).to eq("ROCKY MOUNTAIN")
   end
 end
