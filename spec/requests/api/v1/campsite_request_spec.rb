@@ -26,7 +26,7 @@ RSpec.describe 'Campsite API' do
       expect(campsite_details[:data][:attributes]).to have_key(:long)
       expect(campsite_details[:data][:attributes]).to have_key(:booking_link)
       expect(campsite_details[:data][:attributes]).to have_key(:description)
-      expect(campsite_details[:data][:attributes]).to have_key(:image_array)
+      expect(campsite_details[:data][:attributes]).to have_key(:images)
       expect(campsite_details[:data][:attributes]).to have_key(:cost)
       expect(campsite_details[:data][:attributes]).to have_key(:number_of_reservation_sites)
       expect(campsite_details[:data][:attributes]).to have_key(:reservation_info)
@@ -41,6 +41,7 @@ RSpec.describe 'Campsite API' do
       expect(campsite_details[:data][:attributes]).to have_key(:firewood_available)
       expect(campsite_details[:data][:attributes]).to have_key(:wheelchair_access)
       expect(campsite_details[:data][:attributes]).to have_key(:weather_info)
+      expect(campsite_details[:data][:attributes]).to have_key(:park_name)
     end
   end
 end

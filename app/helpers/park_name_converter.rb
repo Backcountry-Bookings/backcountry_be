@@ -1,6 +1,6 @@
 module ParkNameConverter
-  def convert_to_park_code(park_name)
-    park_codes = {
+def park_codes
+    {
       'ACADIA' => 'ACAD',
       'ARCHES' => 'ARCH',
       'BADLANDS' => 'BADL',
@@ -60,8 +60,15 @@ module ParkNameConverter
       'YELLOWSTONE' => 'YELL',
       'YOSEMITE' => 'YOSE',
       'ZION' => 'ZION'
-      }
+    }
+  end 
     
+  def convert_to_park_code(park_name)
     park_codes[park_name]
+  end
+
+  def convert_to_park_name(park_code)
+    new_hash = park_codes.invert
+    new_hash[park_code]
   end
 end
