@@ -1,4 +1,6 @@
 class Campsite 
+  include ParkNameConverter
+
   attr_reader :name,
               :id,
               :lat,
@@ -19,7 +21,8 @@ class Campsite
               :ice_available,
               :firewood_available,
               :wheelchair_access,
-              :weather_info
+              :weather_info,
+              :park_code
 
   def initialize(camp_data)
     @name = camp_data[:name]
@@ -43,6 +46,10 @@ class Campsite
     @firewood_available = camp_data[:amenities][:firewoodForSale]
     @wheelchair_access = camp_data[:accessibility][:wheelchairAccess]
     @weather_info = camp_data[:weatherOverview]
-    # @activities =
+    @park_code = camp_data[:parkCode]
+  end
+
+  def park_name
+    convert_to_park_name(park_code.upcase)
   end
 end
