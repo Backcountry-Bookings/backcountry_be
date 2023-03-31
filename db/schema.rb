@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_30_002227) do
+ActiveRecord::Schema.define(version: 2023_03_31_213050) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,13 +47,6 @@ ActiveRecord::Schema.define(version: 2023_03_30_002227) do
     t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
-  create_table "images", force: :cascade do |t|
-    t.bigint "review_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["review_id"], name: "index_images_on_review_id"
-  end
-
   create_table "reviews", force: :cascade do |t|
     t.string "campsite_id"
     t.string "description"
@@ -73,6 +66,5 @@ ActiveRecord::Schema.define(version: 2023_03_30_002227) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "favorites", "users"
-  add_foreign_key "images", "reviews"
   add_foreign_key "reviews", "users"
 end
