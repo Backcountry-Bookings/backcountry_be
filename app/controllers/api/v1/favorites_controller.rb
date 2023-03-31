@@ -35,6 +35,6 @@ class Api::V1::FavoritesController < ApplicationController
   private
 
   def favorite_params 
-    params.permit(:campsite_name, :campsite_id, :campsite_details, :image)
+    params.permit(:campsite_id)
   end
 end
