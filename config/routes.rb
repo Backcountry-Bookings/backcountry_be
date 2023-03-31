@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :campsites, only: [:show, :index]
       resources :favorites, only: [:index, :create, :destroy]
-      resources :reviews
+      resources :reviews, only: [:index, :create]
     end
   end
 end
