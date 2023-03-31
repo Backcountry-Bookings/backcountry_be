@@ -41,8 +41,8 @@ RSpec.describe "Favorite" do
     it 'returns all favorites for a user' do
       user = User.create!(name: "Robert", id: 1)
 
-      Favorite.create!(campsite_name: "Aspenglen Campground", campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", campsite_details: "Aspenglen Campground is reservation only. Visit Recreation.gov.", image: "https://www.nps.gov/romo/planyourvisit/agcg.htm", user_id: user.id)
-      Favorite.create!(campsite_name: "Rocky Mountain Campground", campsite_id: "7ADFe25B-E444-1112-841B-0ABC4367823", campsite_details: "BEST CAMPGROUND EVER.", image: "https://www.nps.gov/romo/planyourvisit/agcg.htm", user_id: user.id)
+      Favorite.create!(campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", user_id: user.id)
+      Favorite.create!(campsite_id: "7ADFe25B-E444-1112-841B-0ABC4367823", user_id: user.id)
 
       expect(user.favorites.count).to eq(2)
 
@@ -60,10 +60,7 @@ RSpec.describe "Favorite" do
       expect(favorites[:data].first[:type]).to be_a(String)
       expect(favorites[:data].first).to have_key(:attributes)
       expect(favorites[:data].first[:attributes]).to be_a(Hash)
-      expect(favorites[:data].first[:attributes]).to have_key(:campsite_name)
       expect(favorites[:data].first[:attributes]).to have_key(:campsite_id)
-      expect(favorites[:data].first[:attributes]).to have_key(:campsite_details)
-      expect(favorites[:data].first[:attributes]).to have_key(:image)
     end
 
     it 'returns an error if user is not found' do
