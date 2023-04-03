@@ -2,17 +2,6 @@
 
 <a name="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-[![Activity][commit-activity-shield]][commit-activity-url]
-[![Commit][last-commit-shield]][last-commit-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Code-Size][code-size-shield]][code-size-url]<br>
-
-[![Watchers][watchers-shield]][watchers-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="left">
@@ -38,6 +27,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#api information">API Information</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -406,30 +396,3 @@ Project Links: <br>
 * ["The Best README Template" by Github User othneil](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[commit-activity-shield]: https://img.shields.io/github/commit-activity/m/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
-[commit-activity-url]: https://github.com/Backcountry-Bookings/backcountry_be/commits/main
-[last-commit-shield]: https://img.shields.io/github/last-commit/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
-[last-commit-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/commits/main
-[contributors-shield]: https://img.shields.io/github/contributors/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[contributors-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[forks-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/network/members
-[stars-shield]: https://img.shields.io/github/stars/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[stars-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[issues-url]: https://github.com/Backcountry-Bookings/backcountry_be/issues
-[code-size-shield]: https://img.shields.io/github/languages/code-size/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
-[code-size-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/wiki
-[watchers-shield]: https://img.shields.io/github/watchers/TrailsNBrews/trails_n_brews_BE?style=social
-[watchers-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/network/members
-[license-shield]: https://img.shields.io/github/license/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[license-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[Rails]: https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?logo=ruby-on-rails&logoColor=white&style=for-the-badge
-[Rails-url]: https://rubyonrails.org 
