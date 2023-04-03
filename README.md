@@ -50,7 +50,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Backcountry Bookings is your go-to campsite tracking tool that enables users to organize their future and past camping trips by creating a favorites list of all their outdoor vacations. Users will be able to search for campsites available within National Parks, by state, or by the campsite name. A user will be able to select a particular campsite to view more details including links to book their camping trip or view directions to the selected campsite from their current location. After a user has had a chance to enjoy their campsite visit, they will be able to leave detailed reviews on the campsite with the ability to specify the specific camp reservation site. Users will also be able to upload their own image to their campsite review.
+Backcountry Bookings is your go-to campsite tracking tool that enables users to organize their future and past camping trips by creating a favorites list of all their outdoor vacations. Users will be able to search for campsites available within National Parks, by their preferred state, or by the campsite name. A user will be able to select a particular campsite to view more details including links to book their camping trip or view the directions from their current location. After a user has had a chance to enjoy their campsite visit, they will be able to leave detailed reviews on the campsite with the ability to specify the specific camp reservation site. Users will also be able to upload their own image to their campsite review.
 
 Backcountry Bookings - BE is the back end portion and is in charge of setting the necessary endpoints and services needed by the [FE half](https://github.com/Backcountry-Bookings/backcountry_fe).
 
