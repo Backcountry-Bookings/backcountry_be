@@ -32,6 +32,8 @@ gem 'faraday'
 gem 'figaro'
 gem 'jsonapi-serializer'
 gem 'aws-sdk-s3', require: false
+gem 'activestorage-validator'
+gem 'active_storage_validations'
 
 group :test do
   gem 'webmock'
