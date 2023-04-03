@@ -133,8 +133,8 @@ The variable names of your api keys must follow this pattern:
 - Try it now: <br>
 'https://backcountry-bookings-be.herokuapp.com/api/v1/campsites?park_name=yosemite'
 
-- /campsites/<campsite_id>
-  - GET campsite
+- /campsites
+  - GET campsite, /campsites/<campsite_id>
     - Returns details of a single campsite by the campsite id.
 
   ```
@@ -253,7 +253,8 @@ The variable names of your api keys must follow this pattern:
     - Headers:
       - CONTENT_TYPE => application/json
       - ACCEPT => application/json
-      - body = { campsite_id: campsite_id }
+    - Body: `{ campsite_id: campsite_id }`
+    - Successfully created response:
 
   ```
    { "success": "Favorite added successfully" }
@@ -280,6 +281,50 @@ The variable names of your api keys must follow this pattern:
 
   ```
     { "success": "Favorite deleted successfully" }
+  ```
+
+- /reviews 
+  - POST review, /reviews?user_id=1&campsite_id=845729457
+  - Create a review for a campsite
+  - Headers: 
+    - CONTENT_TYPE => application/json
+    - ACCEPT => application/json
+  - Body: 
+  ```
+    { 
+      name: 'John'
+      description: 'Was great!', 
+      rating: 4,
+      site_name: 'A4',
+      img_file: camp.jpeg
+    }
+  ```
+  - Successfully created response:
+
+  ```
+    { "success": "Review saved" }
+  ```
+
+  - GET review, /reviews?campsite_id=845729457
+    - Returns the reviews for a campsite
+
+  ```
+    { 
+      "data": [
+        {
+          "id": "1",
+          "type": "review",
+          "attributes": {
+                "name": "John",
+                "description": "Was great!",
+                "rating": 4,
+                "site_name": "A4",
+                "image_url": "https://backcountrybookings.s3.us-west-2.amazonaws.com"
+          }
+        },
+        {...}
+      ]
+    }
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
