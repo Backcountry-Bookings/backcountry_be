@@ -18,7 +18,7 @@ class Api::V1::ReviewsController < ApplicationController
     if review.save
       render json: { success: 'Review saved' }, status: 201
     else
-      render json: { error: 'Review not saved' }, status: 400
+      render json: { error: review.errors.full_messages.to_sentence }, status: 400
     end
   end
 
