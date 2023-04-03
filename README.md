@@ -15,11 +15,13 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="left">
   <a href="https://github.com/Backcountry-Bookings/backcountry_be">
-    <img src="https://raw.githubusercontent.com/Backcountry-Bookings/backcountry_fe/main/src/Assets/backcountryLogo.png" alt="Logo" width="200" height="200">
+    <div align="center">
+      <img src="https://raw.githubusercontent.com/Backcountry-Bookings/backcountry_fe/main/src/Assets/backcountryLogo.png" alt="Logo" width="200" height="200">
+    </div>
   </a>
-  <h3 align="center">Backcountry Bookings, BE</h3>
+  <h3 align="left">Backcountry Bookings, BE</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -70,7 +72,7 @@ Utilize an Agile project management process to hone skill and comfort with build
 
 ### Built With
 
-* [![Rails]][Rails-url]
+[![Rails]][Rails-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -335,51 +337,51 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Developers
 
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/46434166?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Christian McCabe<br>
     <a href="https://github.com/cemccabe">Github: cemccabe</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/105924761?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Colin Ciervo<br>
     <a href="https://github.com/Mrcolin99">Github: Mrcolin99</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/113863021?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Craig Weller<br>
     <a href="https://github.com/crgweller">Github: crgweller</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/111480866?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Kerynn Davis<br>
     <a href="https://github.com/Kerynn">Github: Kerynn</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/112499285?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Kyle Ledin<br>
     <a href="https://github.com/Kledin85">Github: Kledin85</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/113707169?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Rick Vermeil<br>
     <a href="https://github.com/RickV85">Github: RickV85</a>
   </p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://avatars.githubusercontent.com/u/113728354?v=4" alt="Profile" width="80" height="80">
-  <p align="center">
+  <p align="left">
     Ryan Baer<br>
     <a href="https://github.com/RyanBaer42">Github: RyanBaer42</a>
   </p>
