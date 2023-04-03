@@ -108,9 +108,28 @@ RSpec.describe 'Review' do
 
       expect(user.reviews.count).to eq(2)
 
+      get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
+
+      all_reviews = JSON.parse(response.body, symbolize_names: true)
+
+      expect(all_reviews[:data].count).to eq(2)
+      
       delete "/api/v1/reviews/#{review1.id}"
 
       expect(user.reviews.count).to eq(1)
+      expect(user.reviews.first).to eq(review2)
+
+      message = JSON.parse(response.body, symbolize_names: true)
+
+      expect(message).to be_a(Hash)
+      expect(message).to have_key(:success)
+      expect(message[:success]).to eq("Review deleted successfully")
+
+      get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
+
+      after_deletion_reviews = JSON.parse(response.body, symbolize_names: true)
+      
+      expect(after_deletion_reviews[:data].count).to eq(1)
     end
   end
 
