@@ -110,7 +110,23 @@ RSpec.describe 'Review' do
 
       expect(error_response).to be_a(Hash)
       expect(error_response).to have_key(:error)
-      expect(error_response[:error]).to eq("Review not saved")
+      expect(error_response[:error]).to eq("Campsite can't be blank")
+    end
+
+    it 'will return error if file is not an image' do 
+      file = Rails.root.join('spec', 'fixtures', 'test.txt')
+      text = ActiveStorage::Blob.create_after_upload!(io: File.open(file, 'rb'), filename: 'test.txt', content_type: 'text/plain').signed_id
+
+      headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
+      body = { name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4', img_file: text }
+      post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body.to_json, headers: headers
+
+      expect(response).to_not be_successful
+      error_response = JSON.parse(response.body, symbolize_names: true)
+
+      expect(error_response).to be_a(Hash)
+      expect(error_response).to have_key(:error)
+      expect(error_response[:error]).to eq("Img file is not given between size and Img file has an invalid content type")
     end
 
     it 'will return an empty array if campsite has no reviews' do 
