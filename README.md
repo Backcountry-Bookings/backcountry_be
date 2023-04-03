@@ -16,24 +16,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/TrailsNBrews/trails_n_brews_BE">
-    <img src="app/assets/images/trails_n_brew_logo.png" alt="Logo" width="125" height="125">
+  <a href="https://github.com/Backcountry-Bookings/backcountry_be">
+    <img src="https://raw.githubusercontent.com/Backcountry-Bookings/backcountry_fe/main/src/Assets/backcountryLogo.png" alt="Logo" width="200" height="200">
   </a>
   <h3 align="center">Backcountry Bookings, BE</h3>
-
-  <p align="center">
-    A guide to lead hikers to "watering holes"
-    <br />
-    <a href="https://github.com/TrailsNBrews/Trails-N-Brews_FE/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/TrailsNBrews/Trails-N-Brews_FE/">View Demo</a>
-    ·
-    <a href="https://github.com/TrailsNBrews/Trails-N-Brews_FE/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/TrailsNBrews/Trails-N-Brews_FE/issues">Request Feature</a>
-  </p>
-</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
