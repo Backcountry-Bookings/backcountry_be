@@ -19,7 +19,7 @@
   <a href="https://github.com/TrailsNBrews/trails_n_brews_BE">
     <img src="app/assets/images/trails_n_brew_logo.png" alt="Logo" width="125" height="125">
   </a>
-  <h3 align="center">Trails N Brews, BE</h3>
+  <h3 align="center">Backcountry Bookings, BE</h3>
 
   <p align="center">
     A guide to lead hikers to "watering holes"
@@ -78,7 +78,7 @@ Trails N' Brews - BE is the back end portion and is in charge of setting the nec
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Learning Goals
-Utilize an Agile project management process to hone skill and comfort with building a back end under a service oriented architecture. This will be achieved by consuming the [Open Brewery DB's API](https://www.openbrewerydb.org/) and the [Colorado Trail Explorer (COTREX) data](https://data.colorado.gov/Recreation/Colorado-Trail-Explorer-COTREX-/tsn8-y22x) and exposing them as API endpoints for our front end to call upon. Developers will build experience using Github Projects and the issues features as a project management tool.
+Utilize an Agile project management process to hone skill and comfort with building a back end under a service oriented architecture. This will be achieved by consuming the [National Park Service API](https://www.nps.gov/subjects/developer/index.htm) and exposing them as API endpoints for our front end to call upon. Developers will build experience using Github Projects and the issues features as a project management tool. This final capstone project also provides the opportunity to explore and implement a stretch technology, AWS s3 Image Storage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,19 +129,60 @@ The variable names of your api keys must follow this pattern:
 
 ### Endpoints
 
-- Root directory: 'https://evening-caverns-30828.herokuapp.com/api/v1'
+- Root directory: 'https://backcountry-bookings-be.herokuapp.com/api/v1'
 - Try it now: <br>
-'https://evening-caverns-30828.herokuapp.com/api/v1/search_trails?search=ber'
-'https://evening-caverns-30828.herokuapp.com/api/v1/search_breweries?name=brew'
+'https://backcountry-bookings-be.herokuapp.com/api/v1/campsites?park_name=yosemite'
 
-- /users
-  - GET user, /users/google_id?auth_token=token?auth_val=email
-    - Receives the request for the user to log in, authenticates it, and returns the user info.
-    - Headers:
-      - CONTENT_TYPE => application/json
-      - HTTP_AUTH_TOKEN is the google_token
-      - HTTP_AUTH_VAL is the user email
-      ![alt text](app/assets/images/readme_user_get.png)
+- /campsites/<campsite_id>
+  - GET campsite
+    - Returns details of a single campsite by the campsite id.
+  ```
+  {
+    "data": {
+        "id": "3CCB0AF7-A364-4490-A788-EE00700BD108",
+        "type": "campsite",
+        "attributes": {
+              "name": "Antelope Point RV Park",
+              "lat": "36.956030575674106",
+              "long": "-111.43123626708984",
+              "booking_link": "https://www.roverpass.com/c/antelope-point-rv-park-page-az/booking/?slug=antelope-point-rv-park-page-az",
+              "description": "While the Antelope Point RV park is not physically within the boundaries of Glen Canyon National Recreation Area, it is adjacent to the Antelope Point Marina, restaurant, gift shop. This is an RV site only. 104 full hook-up spaces, 15 pull-through spaces. Maximum Length - 70ft. 2 RV dump stations",
+              "images": [
+                      {
+                        "credit": "Antelope Point Marina",
+                        "crops": [],
+                        "title": "Antelope Point RV park",
+                        "altText": "Aerial view of recreational vehicle campground",
+                        "caption": "Antelope Point RV Park",
+                        "url": "https://www.nps.gov/common/uploads/structured_data/7E3733CB-C900-8B13-A24B7886C66C5D66.png"
+                      }
+              ],
+              "cost": [],
+              "number_of_reservation_sites": "104",
+              "reservation_info": "Antelope Point Marina's RV park takes reservations using a third party site.",
+              "toilets": [
+                        "Flush Toilets - year round"
+              ],
+              "showers": [
+                        "None"
+              ],
+              "cell_coverage": "Yes - year round",
+              "laundry": "No",
+              "dump_station": "Yes - year round",
+              "camp_store": "Yes - seasonal",
+              "potable_water": [
+                            "Yes - year round"
+              ],
+              "ice_available": "Yes - year round",
+              "firewood_available": "No",
+              "wheelchair_access": "",
+              "weather_info": "The weather in Glen Canyon National Recreation Area is usually typical for the high deserts. Summers are extremely hot with little, if any, shade. Winters are moderately cold with night time lows often below freezing. Spring weather is highly variable and unpredictable with extended periods of winds. Fall weather is usually nice and mild, a great time to beat the heat (and the crowds!).",
+              "park_name": null
+          }
+    }
+  }
+  ```
+
 
   - POST user, /users/
     - JSON string in the body with user email, first_name, last_name, google_id, google_token
@@ -174,8 +215,6 @@ The variable names of your api keys must follow this pattern:
     - GET search_trails?id="trail_feature_id"
       - Returns the exact match for a trail with that Feature ID
       ![alt text](app/assets/images/readme_trail_id_get.png)
-
-See the [open issues](https://github.com/TrailsNbrews/trails_n_brews_BE/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,7 +309,7 @@ Project Links: <br>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [commit-activity-shield]: https://img.shields.io/github/commit-activity/m/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
-[commit-activity-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/commits/main
+[commit-activity-url]: https://github.com/Backcountry-Bookings/backcountry_be/commits/main
 [last-commit-shield]: https://img.shields.io/github/last-commit/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
 [last-commit-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/commits/main
 [contributors-shield]: https://img.shields.io/github/contributors/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
