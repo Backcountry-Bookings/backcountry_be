@@ -59,7 +59,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Backcountry Bookings .......
+Backcountry Bookings is your go-to campsite tracking tool that enables users to organize their future and past camping trips by creating a favorites list of all their outdoor vacations. Users will be able to search for campsites available within National Parks, by state, or by the campsite name. A user will be able to select a particular campsite to view more details including links to book their camping trip or view directions to the selected campsite from their current location. After a user has had a chance to enjoy their campsite visit, they will be able to leave detailed reviews on the campsite with the ability to specify the specific camp reservation site. Users will also be able to upload their own image to their campsite review.
 
 Backcountry Bookings - BE is the back end portion and is in charge of setting the necessary endpoints and services needed by the [FE half](https://github.com/Backcountry-Bookings/backcountry_fe).
 
@@ -419,7 +419,7 @@ Project Links: <br>
 [stars-shield]: https://img.shields.io/github/stars/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
 [stars-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/stargazers
 [issues-shield]: https://img.shields.io/github/issues/TrailsNBrews/trails_n_brews_BE.svg?style=for-the-badge
-[issues-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/issues
+[issues-url]: https://github.com/Backcountry-Bookings/backcountry_be/issues
 [code-size-shield]: https://img.shields.io/github/languages/code-size/TrailsNBrews/trails_n_brews_BE?style=for-the-badge
 [code-size-url]: https://github.com/TrailsNBrews/trails_n_brews_BE/wiki
 [watchers-shield]: https://img.shields.io/github/watchers/TrailsNBrews/trails_n_brews_BE?style=social
