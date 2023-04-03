@@ -71,9 +71,9 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Trails N' Brews (TnB) is a web app seeking to answer one of life's greatest needs for the Colorado hiker. Whether it be a 1 mile trail along the front range or an expedition to the summit of one this great state's many 14ers all hikers want to know where the nearest brewery is to celebrate and wind down from their achievement. TnB is designed with service oriented architecture.
+Backcountry Bookings .......
 
-Trails N' Brews - BE is the back end portion and is in charge of setting the necessary endpoints and services needed by the [FE half](https://github.com/TrailsNBrews/Trails-N-Brews_FE).
+Backcountry Bookings - BE is the back end portion and is in charge of setting the necessary endpoints and services needed by the [FE half](https://github.com/Backcountry-Bookings/backcountry_fe).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,6 +136,7 @@ The variable names of your api keys must follow this pattern:
 - /campsites/<campsite_id>
   - GET campsite
     - Returns details of a single campsite by the campsite id.
+
   ```
   {
     "data": {
@@ -146,7 +147,7 @@ The variable names of your api keys must follow this pattern:
               "lat": "36.956030575674106",
               "long": "-111.43123626708984",
               "booking_link": "https://www.roverpass.com/c/antelope-point-rv-park-page-az/booking/?slug=antelope-point-rv-park-page-az",
-              "description": "While the Antelope Point RV park is not physically within the boundaries of Glen Canyon National Recreation Area, it is adjacent to the Antelope Point Marina, restaurant, gift shop. This is an RV site only. 104 full hook-up spaces, 15 pull-through spaces. Maximum Length - 70ft. 2 RV dump stations",
+              "description": "This is an RV site only. 104 full hook-up spaces, 15 pull-through spaces. Maximum Length - 70ft.",
               "images": [
                       {
                         "credit": "Antelope Point Marina",
@@ -176,45 +177,110 @@ The variable names of your api keys must follow this pattern:
               "ice_available": "Yes - year round",
               "firewood_available": "No",
               "wheelchair_access": "",
-              "weather_info": "The weather in Glen Canyon National Recreation Area is usually typical for the high deserts. Summers are extremely hot with little, if any, shade. Winters are moderately cold with night time lows often below freezing. Spring weather is highly variable and unpredictable with extended periods of winds. Fall weather is usually nice and mild, a great time to beat the heat (and the crowds!).",
+              "weather_info": "The weather in Glen Canyon National Recreation Area is usually typical for the high deserts.",
               "park_name": null
           }
     }
   }
   ```
 
+- Search for campsites (3 search options available)
+  - /campsites?park_name=national park name
+    - Campsites by park name (ex. Yosemite)
+      - GET campsites?park_name="yosemite"
+        - Returns the campsites available within the national park searched.
 
-  - POST user, /users/
-    - JSON string in the body with user email, first_name, last_name, google_id, google_token
-    - Headers: 
+  - /campsites?name=campsite name
+    - Campsites by the campsite name
+      - GET campsites?name="aspenglen"
+        - Returns the campsite by the name searched.
+
+  - /campsites?state_code=state code
+    - Campsites by state code (ex: OR, Oregon)
+      - GET campsites?state_code="OR"
+        - Returns the campsites available within the state code searched.
+
+- Example Campsite Search Endpoint (GET '/api/v1/campsites?park_name=yosemite'):
+
+  ```
+  {
+    "data": [
+          {
+            "id": "58B9591C-4723-4049-B26C-D30C07A6FAD6",
+            "type": "campsite_search",
+            "attributes": {
+                    "name": "Bridalveil Creek Campground",
+                    "description": "The Bridalveil Creek Campground is located along the Glacier Point Road near Bridalveil Creek",
+                    "images": [
+                          {
+                            "credit": "NPS Photo",
+                            "crops": [],
+                            "title": "Bridalveil Campground",
+                            "altText": "A wood sign at the entrance to a campground reads, Bridalveil Campground.",
+                            "caption": "The entrance to Bridalveil Campground",
+                            "url": "https://www.nps.gov/common/uploads/structured_data/F2FB2779-A1A5-985F-2488256AA422403C.jpg"
+                          }
+                    ],
+                    "park_name": "YOSEMITE",
+                    "state_code": null,
+                    "cost": [
+                          {
+                            "cost": "36.00",
+                            "description": "Bridalveil Creek Campground Reservation Fee - Non-Group Site/night",
+                            "title": "Bridalveil Creek Campground Reservation Fee - Non-Group Site"
+                          },
+                          {
+                            "cost": "75.00",
+                            "description": "Bridalveil Creek Campground Group Site Fee - Group Site/night",
+                            "title": "Bridalveil Creek Campground Group Site Fee - Group Site"
+                          },
+                          {
+                            "cost": "50.00",
+                            "description": "Bridalveil Creek Campground Stock Site Fee - Stock Site/night",
+                            "title": "Bridalveil Creek Campground Stock Site Fee - Stock Site"
+                      }
+                    ]
+          }
+      },
+      {...}
+    ]
+  }
+  ```
+
+- /favorites
+  - POST favorite, /favorites?user_id=1
+    - Create a favorite campsite for a user
+    - Headers:
       - CONTENT_TYPE => application/json
-      ![alt text](app/assets/images/readme_user_post.png)
+      - ACCEPT => application/json
+      - body = { campsite_id: campsite_id }
 
-- /search_breweries
-  - Breweries by location
-    - GET search_breweries?location="latitude,longitude"
-      - Returns the nearest breweries to the location entered
-      ![alt text](app/assets/images/readme_brewery_loc_get.png)
+  ```
+   { "success": "Favorite added successfully" }
+  ```
 
-  - Breweries by name
-    - GET search_breweries?name="name_fragment"&count="number_of_results"
-      - Returns breweries in Colorado that closest match the name entered
-      ![alt text](app/assets/images/readme_brewery_name_get.png)
+  - GET favorites, /favorites?user_id=1
+    - Returns the favorite campsites for a user
 
-  - Brewery by ID
-    - GET search_breweries?id="brewery_id"
-      - Returns the exact match for a brewery with that ID
-      ![alt text](app/assets/images/readme_brewery_id_get.png)
+  ```
+    { 
+      "data": [
+            "id": "1",
+            "type": "favorite",
+            "attributes": {
+                  "campsite_id": "309847037"
+          },
+          {...}
+      ]
+    }
+  ```
 
-- /search_trails
-  - Trails by name
-    - GET search_trails?search="name_fragment"&count="number_of_results"
-      - Returns trails in Colorado that closest match the name entered
-      ![alt text](app/assets/images/readme_trail_name_get.png)
-  - Trail by ID
-    - GET search_trails?id="trail_feature_id"
-      - Returns the exact match for a trail with that Feature ID
-      ![alt text](app/assets/images/readme_trail_id_get.png)
+  - DELETE favorite, /favorites/<favorite_id>
+    - Deletes a favorite from a user
+
+  ```
+    { "success": "Favorite deleted successfully" }
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,6 +290,7 @@ The variable names of your api keys must follow this pattern:
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
