@@ -43,6 +43,7 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </details>
+<br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -62,7 +63,7 @@ Utilize an Agile project management process to hone skill and comfort with build
 
 ### Built With
 
-[![Rails]][Rails-url]
+* Ruby on Rails
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
