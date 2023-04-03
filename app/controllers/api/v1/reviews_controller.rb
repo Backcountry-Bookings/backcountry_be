@@ -25,6 +25,6 @@ class Api::V1::ReviewsController < ApplicationController
   private
 
   def review_params 
-    params.permit(:campsite_id, :description, :rating, :site_name, :img_file)
+    params.permit(:campsite_id, :description, :rating, :site_name, :img_file, :name)
   end
 end
