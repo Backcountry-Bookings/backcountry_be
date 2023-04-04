@@ -5,7 +5,6 @@ RSpec.describe 'Review' do
     WebMock.allow_net_connect!
   end
 
-
   describe 'create a review' do 
     it 'creates a review successfully' do
       user = User.create!(name: "Robert", id: 1)
@@ -98,6 +97,59 @@ RSpec.describe 'Review' do
 
       expect(reviews[:data].first[:attributes][:image_url]).to include("https://backcountrybookings.s3.us-west-2.amazonaws.com")
     end 
+  end
+
+  describe 'delete review' do
+    it 'successfully deletes a review' do 
+      user = User.create!(name: 'Robert', id: 1)
+
+      review1 = Review.create!(campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", user_id: user.id, name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4')
+      review2 = Review.create!(campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", user_id: user.id, name: 'Robert', description: 'Site was too close to water', rating: 2, site_name: 'Z23')
+
+      expect(user.reviews.count).to eq(2)
+
+      get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
+
+      all_reviews = JSON.parse(response.body, symbolize_names: true)
+
+      expect(all_reviews[:data].count).to eq(2)
+      
+      delete "/api/v1/reviews/#{review1.id}"
+
+      expect(user.reviews.count).to eq(1)
+      expect(user.reviews.first).to eq(review2)
+
+      message = JSON.parse(response.body, symbolize_names: true)
+
+      expect(message).to be_a(Hash)
+      expect(message).to have_key(:success)
+      expect(message[:success]).to eq("Review deleted successfully")
+
+      get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
+
+      after_deletion_reviews = JSON.parse(response.body, symbolize_names: true)
+      
+      expect(after_deletion_reviews[:data].count).to eq(1)
+    end
+
+    it 'returns an error if review is not found' do 
+      user = User.create!(name: 'Robert', id: 1)
+
+      review1 = Review.create!(campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", user_id: user.id, name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4')
+      review2 = Review.create!(campsite_id: "7475825B-E844-4012-841B-0E29E05D4540", user_id: user.id, name: 'Robert', description: 'Site was too close to water', rating: 2, site_name: 'Z23')
+
+      expect(user.reviews.count).to eq(2)
+
+      delete "/api/v1/reviews/99999999"
+
+      expect(user.reviews.count).to eq(2)
+
+      message = JSON.parse(response.body, symbolize_names: true)
+
+      expect(message).to be_a(Hash)
+      expect(message).to have_key(:error)
+      expect(message[:error]).to eq("Review not found")
+    end
   end
 
   describe 'sad path' do 

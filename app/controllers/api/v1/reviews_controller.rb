@@ -22,6 +22,15 @@ class Api::V1::ReviewsController < ApplicationController
     end
   end
 
+  def destroy 
+    if review = Review.find_by(id: params[:id])
+      review.destroy
+      render json: { success: 'Review deleted successfully' }, status: :ok
+    else
+      render json: { error: 'Review not found' }, status: :not_found
+    end
+  end
+
   private
 
   def review_params 
