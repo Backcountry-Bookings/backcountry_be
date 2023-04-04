@@ -4,6 +4,9 @@ RSpec.describe 'campsite facade' do
   before :each do 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&q=7475825B-E844-4012-841B-0E29E05D4540&limit=1")
       .to_return(status: 200, body: File.read('./spec/fixtures/campsite_details.json'), headers: {})
+
+    stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&stateCode=CO")
+      .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_state.json'), headers: {})
   end
   
   describe 'get_campsite' do 
