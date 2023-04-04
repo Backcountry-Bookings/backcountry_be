@@ -12,13 +12,13 @@ RSpec.describe 'CampsitesSearch API' do
       .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_park.json'), headers: {})
 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&parkCode=")
-      .to_return(status: 200, body: File.read('./spec/fixtures/not_a_park.json'), headers: {})
+      .to_return(status: 200, body: File.read('./spec/fixtures/no_campsite_found.json'), headers: {})
 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&stateCode=AB")
-      .to_return(status: 200, body: File.read('./spec/fixtures/not_a_park.json'), headers: {})
+      .to_return(status: 200, body: File.read('./spec/fixtures/no_campsite_found.json'), headers: {})
 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&q=zzzzz")
-      .to_return(status: 200, body: File.read('./spec/fixtures/not_a_park.json'), headers: {})
+      .to_return(status: 200, body: File.read('./spec/fixtures/no_campsite_found.json'), headers: {})
   end
 
   describe 'return list of campsites by state' do
