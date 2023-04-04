@@ -10,6 +10,9 @@ RSpec.describe 'CampsitesSearch API' do
 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&parkCode=OLYM")
       .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_park.json'), headers: {})
+
+    stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&parkCode=")
+      .to_return(status: 200, body: File.read('./spec/fixtures/not_a_park.json'), headers: {})
   end
 
   describe 'return list of campsites by state' do
@@ -95,5 +98,15 @@ RSpec.describe 'CampsitesSearch API' do
 
       end
     end
+  
+    it 'returns an error when a park name is not found' do
+      get '/api/v1/campsites?park_name=CDIM'
+
+      campsite_details = JSON.parse(response.body, symbolize_names: true)
+
+      expect(campsite_details).to have_key(:errors)
+      expect(campsite_details[:errors]).to eq('No park found')
+    end
   end
+
 end
