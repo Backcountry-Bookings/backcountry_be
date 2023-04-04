@@ -22,6 +22,8 @@ class Api::V1::ReviewsController < ApplicationController
     if params[:img_file].present?
       if (params[:img_file].size > FILE_VALIDATIONS[:max_size]) || (params[:img_file].size < FILE_VALIDATIONS[:min_size])
         render json: { error: "Img file is not given between size" }, status: 400
+      elsif params[:img_file].content_type != "image/png" || params[:img_file].content_type != "image/jpeg"
+        render json: { error: "Img file has an invalid content type" }, status: 400
       elsif review = user.reviews.new(review_params)
         if review.save
           render json: { success: 'Review saved' }, status: 201
