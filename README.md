@@ -306,6 +306,13 @@ The variable names of your api keys must follow this pattern:
     }
   ```
 
+  - DELETE review, /reviews/<review_id>
+    - Deletes a campsite review
+
+  ```
+    { "success": "Review deleted successfully" }
+  ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
