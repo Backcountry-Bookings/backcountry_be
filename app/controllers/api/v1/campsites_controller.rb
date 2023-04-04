@@ -9,6 +9,7 @@ class Api::V1::CampsitesController < ApplicationController
       park_code = convert_to_park_code(params[:park_name].upcase)
       campsites = CampsiteFacade.get_campsites_by_park(park_code)
     end
+    
     if campsites.length <  1
       render json: { errors: "No campsites found" }, status: :not_found
     else 

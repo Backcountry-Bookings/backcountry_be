@@ -46,6 +46,15 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:cost)
       end
     end
+
+    it 'returns an error when a state code is not found' do
+      get '/api/v1/campsites?state_code=AB'
+
+      campsite_details = JSON.parse(response.body, symbolize_names: true)
+
+      expect(campsite_details).to have_key(:errors)
+      expect(campsite_details[:errors]).to eq('No campsites found')
+    end
   end
 
   describe '#get_campsites_by_name' do
@@ -72,8 +81,17 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
-
+        
       end
+    end
+
+    it 'returns an error when a campsite name is not found' do
+      get '/api/v1/campsites?q=zzzzz'
+
+      campsite_details = JSON.parse(response.body, symbolize_names: true)
+
+      expect(campsite_details).to have_key(:errors)
+      expect(campsite_details[:errors]).to eq('No campsites found')
     end
   end
 
@@ -103,31 +121,14 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:cost)
 
       end
+
     end
-  
+
     it 'returns an error when a park name is not found' do
-      get '/api/v1/campsites?park_name=CDIM'
-
+      get '/api/v1/campsites?park_name=notapark'
+  
       campsite_details = JSON.parse(response.body, symbolize_names: true)
-
-      expect(campsite_details).to have_key(:errors)
-      expect(campsite_details[:errors]).to eq('No campsites found')
-    end
-
-    it 'returns an error when a state code is not found' do
-      get '/api/v1/campsites?state_code=AB'
-
-      campsite_details = JSON.parse(response.body, symbolize_names: true)
-
-      expect(campsite_details).to have_key(:errors)
-      expect(campsite_details[:errors]).to eq('No campsites found')
-    end
-
-    it 'returns an error when a campsite name is not found' do
-      get '/api/v1/campsites?state_code=AB'
-
-      campsite_details = JSON.parse(response.body, symbolize_names: true)
-
+  
       expect(campsite_details).to have_key(:errors)
       expect(campsite_details[:errors]).to eq('No campsites found')
     end
