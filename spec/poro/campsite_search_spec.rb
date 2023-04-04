@@ -2,11 +2,11 @@ require 'rails_helper'
 
 RSpec.describe CampsiteSearch do 
   before :each do 
-    WebMock.allow_net_connect!
+    stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&stateCode=CO")
+    .to_return(status: 200, body: File.read('./spec/fixtures/campsites_search_by_state.json'), headers: {})
   end
   
   it 'exists and has attributes' do 
-    # binding.pry
     campsites = CampsiteFacade.get_campsites_by_state('CO')
     expect(campsites).to be_an(Array)
     expect(campsites[0]).to be_a(CampsiteSearch)
