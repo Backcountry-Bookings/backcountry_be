@@ -1,0 +1,1588 @@
+{
+  "total": "634",
+  "limit": "10",
+  "start": "0",
+  "data": [
+      {
+          "id": "EA81BC45-C361-437F-89B8-5C89FB0D0F86",
+          "url": "https://www.nps.gov/amis/planyourvisit/277-north-campground.htm",
+          "name": "277 North Campground",
+          "parkCode": "amis",
+          "description": "277 North Campground is generally open year-round and rarely fills up, except possibly on holiday weekends. A boat launch ramp off the campground may be available depending on lake levels. 277 North offers 17 primitive sites, which are first-come, first-served only. Each site has a covered picnic table and a BBQ grill. A group site is available with reservation only. No ground fires are allowed. The sites are suitable for tents or RVs. Vault toilets are available. No drinking water or hookups are available.",
+          "latitude": "29.512373695509215",
+          "longitude": "-100.90816633365614",
+          "latLong": "{lat:29.512373695509215, lng:-100.90816633365614}",
+          "audioDescription": "277 North Campground is generally open year-round and rarely fills up, except possibly on holiday weekends. A boat launch ramp off the campground may be available depending on lake levels. 277 North offers 17 primitive sites, which are first-come, first-served only. Each site has a covered picnic table and a BBQ grill. A group site is available with reservation only. No ground fires are allowed. The sites are suitable for tents or RVs. Vault toilets are available. No drinking water or hookups are available.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "582AB459-28A8-453A-B22E-BAD481E92098",
+          "reservationInfo": "Standard overnight camping is first-come, first-served only and does not take a reservation. However, the group campsite requires a reservation no less than 3 days in advance and no more than 6 months. Link below is for group campsite ONLY.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10182621",
+          "regulationsurl": "https://cms.nps.gov/amis/learn/management/compendium.htm",
+          "regulationsOverview": "Site capacity is not to exceed eight persons and one recreational vehicle camping unit (three vehicles total). Vehicles must be parked in designated parking areas only and may not be driven off-road. Visitors can stay in a campground up to 14 consecutive nights with a limit of 60 nights in the park in a calendar year. Quiet hours are 10pm to 6am. Check out time is 11am. Ground fires are prohibited.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "Yes - year round",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "AMIS_Interpretation@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "6.00",
+                  "description": "Sites are available on a first-come, first-served basis; there are no reservations. Fee is payable within 30 minutes of occupying a campsite. This can be paid at a centrally located self-pay fee station, which accepts credit or debit cards only. Checkout time is 11am.",
+                  "title": "277 North Campground Standard Site, Nightly Rate (Regular)"
+              },
+              {
+                  "cost": "3.00",
+                  "description": "Sites are available on a first-come, first-served basis; there are no reservations. Fee is payable within 30 minutes of occupying a campsite. This can be paid at a centrally located self-pay fee station, which accepts credit or debit cards only. Checkout time is 11am.",
+                  "title": "277 North Campground Standard Site, Nightly Rate (with Interagency Sr/Access Pass)"
+              },
+              {
+                  "cost": "35.00",
+                  "description": "One site available, reservation only. Fees charged on a tiered system as follows:1-15 people: $35.00, 16-35 people: $75.00, 36-75 people: $155.00. Make reservations on Recreation.gov no less than 3 days and no more than 180 days in advance. Check-out time is 11:00am. Quiet hours are from 10:00pm until 6:00am. No hook-ups.",
+                  "title": "San Pedro Campground Group Site, Nightly Rate (Only with Recreation.gov Reservation)"
+              }
+          ],
+          "directionsOverview": "Directions from Amistad National Recreation Area's Visitor Center- Head east on Highway 90 (turn left out of parking area) and drive 5.3 miles. Get in right lane, take Loop 79 on ramp, and travel 0.2miles. Turn left onto US 277/US 377 (follow signs to Sonora) and go 5.2 miles. Take a sharp right onto Old Highway 377 and follow to campground. GPS Coordinates 29.511294, -100.907325 or 29°30'40.7\"N 100°54'26.4\"W",
+          "directionsUrl": "",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "277 North Campground is generally open year-round and rarely fills up, except possibly on holiday weekends.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "277 North Campground"
+              }
+          ],
+          "addresses": [],
+          "images": [
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "277 North Campground",
+                  "altText": "277 North Campground",
+                  "caption": "277 North Campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/6074AEF5-C153-C931-79C614E3D22A3CB4.jpg"
+              },
+              {
+                  "credit": "NPS Photo`",
+                  "crops": [],
+                  "title": "277 North Campground, Standard Campsite",
+                  "altText": "Picnic table under shade shelter.",
+                  "caption": "277 North Campground, Standard Campsite",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/607CE792-ACEF-DBDA-E0B625666F2F9DA2.jpg"
+              },
+              {
+                  "credit": "NPS Photo / J.Rolls",
+                  "crops": [],
+                  "title": "277 North Group Campsite",
+                  "altText": "Open space with a fire pit and covered picnic area for the group campsite.",
+                  "caption": "227 North Campground Group Campsite Facilities",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/FDE685F8-A53B-66A4-6348D4529CA3F2CB.jpg"
+              },
+              {
+                  "credit": "NPS / J. Rolls",
+                  "crops": [],
+                  "title": "277 North Campground, Standard Site 1",
+                  "altText": "Picnic table under metal shade shelter",
+                  "caption": "277 North Campground, Standard Site 1",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/9472362E-F073-7B1A-0587FE25080BB8FF.jpg"
+              },
+              {
+                  "credit": "NPS Photo / J. Rolls",
+                  "crops": [],
+                  "title": "277 North Campground, Standard Site 2",
+                  "altText": "Picnic table on cement pad under metal shade shelter",
+                  "caption": "277 North Campground, Standard Site 2",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/9D90A782-FBF3-9E0E-A934921502F94966.jpg"
+              },
+              {
+                  "credit": "NPS Photo / J. Rolls",
+                  "crops": [],
+                  "title": "277 North Campground, Standard Site 13",
+                  "altText": "Picnic table on cement pad under shade shelter with BBQ grill",
+                  "caption": "277 North Campground, Standard Site 13",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/A1E80B5E-095F-0F99-C521DEA71C26FC59.jpg"
+              }
+          ],
+          "weatherOverview": "The climate at Amistad is semi-arid in moisture and subtropical in temperature. Humidity is more often high than low, with periodic morning fog. Summers are long, hot, and frequently humid; winters are mild and vary between sunny, warm, cloudy, and cool weather. For current weather, visit the park's weather page at https://www.nps.gov/amis/planyourvisit/weather.htm.",
+          "numberOfSitesReservable": "1",
+          "numberOfSitesFirstComeFirstServe": "17",
+          "campsites": {
+              "totalSites": "18",
+              "group": "1",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Limited. However, some sites do have a cement ramp from gravel RV/tent pad to picnic table.",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "Ground fires are not permitted. Each campsite has a grill.",
+              "rvAllowed": "1",
+              "rvInfo": "RV and Trailers are permitted",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "The main road leading to the campground is paved but the road that goes to each campsite is not.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Limited Development Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "1241C56B-7003-4FDF-A449-29DA8BCB0A41",
+          "url": "",
+          "name": "Abrams Creek Campground",
+          "parkCode": "grsm",
+          "description": "Abrams Creek Campground - elevation 1,125 feet (343m) - is located beside beautiful Abrams Creek in a remote and secluded setting. The climate is moderate, characterized by mild winters and hot, humid summers. Flush toilets and drinking water are available. There are no hookups or showers at the campground. Hammocks are allowed over the footprint of the campsite. Limited to trees 10 inches in diameter with adequate padding around the tree and only 2 hammocks may be suspended from tree.",
+          "latitude": "35.61074664664336",
+          "longitude": "-83.93318327404131",
+          "latLong": "{lat:35.61074664664336, lng:-83.93318327404131}",
+          "audioDescription": "Mountain ranges and a pristine creek are the backdrop for your camping adventure at Abrams Creek. At 1,125 ft, Abrams Creek provides a moderate climate, characterized by mild winters and hot, humid summers with moderate rainfall. Beautiful Abrams Creek flows beside the campground offering the camper the peaceful sounds of rippling water. Abrams Creek Campground offers a traditional outdoor camping experience with the added convenience of flush toilets and drinking water. There are no hookups or showers at the campground. Hiking trails and fishing streams are easily accessible from the site.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "166CDAB3-554B-4409-B2F0-211650614BA0",
+          "reservationInfo": "Campsite reservations are required and may be made up to six months in advance.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/273847",
+          "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+          "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Vault Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "Yes - seasonal"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "865-856-2445",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "GRSM_Smokies_Information@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "30.00",
+                  "description": "Camping Fee is per site, per night.",
+                  "title": "Camping Fee"
+              }
+          ],
+          "directionsOverview": "",
+          "directionsUrl": "",
+          "operatingHours": [
+              {
+                  "exceptions": [
+                      {
+                          "exceptionHours": {
+                              "wednesday": "Closed",
+                              "monday": "Closed",
+                              "thursday": "Closed",
+                              "sunday": "Closed",
+                              "tuesday": "Closed",
+                              "friday": "Closed",
+                              "saturday": "Closed"
+                          },
+                          "startDate": "2022-10-30",
+                          "name": "Closed Seasonally",
+                          "endDate": "2023-04-27"
+                      }
+                  ],
+                  "description": "Campground is open seasonally from late May until early October.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Abrams Creek Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "37878",
+                  "city": "Tallassee",
+                  "stateCode": "TN",
+                  "line1": "6537 Abrams Creek Road",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "37738",
+                  "city": "Gatlinburg",
+                  "stateCode": "TN",
+                  "line1": "107 Park Headquarters Road",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photot",
+                  "crops": [],
+                  "title": "Abrams Creek Campground",
+                  "altText": "Campsite set-up with an orange tent, two chairs sitting by the campfire ring and items on the table.",
+                  "caption": "Abrams is a remote campground with no services nearby.  Be sure to bring everything you need when camping here.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/220A84E0-D56D-D7DF-81B2F23D52CB7F20.jpg"
+              }
+          ],
+          "weatherOverview": "This campground is in the mountains and weather can rapidly change from warm and sunny to cold and rainy. Be prepared with layers and rain gear in all seasons.",
+          "numberOfSitesReservable": "16",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "16",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Campground is not ADA accessible.",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+              "rvAllowed": "1",
+              "rvInfo": "RVs and trailers not recommended.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "12",
+              "adaInfo": "Campground is not ADA accessible.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Primitive Camping Areas"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "ABDC6E2A-9959-4A4C-9DB6-EEF66E7C95B8",
+          "url": "https://www.recreation.gov/camping/campgrounds/233321?q=Adirondack%20Shelters",
+          "name": "Adirondack Shelters",
+          "parkCode": "cato",
+          "description": "Reservations Required. No Walk Ins. There are two shelters that offer the bare minimum with regard to outdoor accommodation. Available year-round, the Adirondack Shelters located near the northern most point of the park, provide a destination for true nature immersion and an alternative to drive-up camping. A moderate three-mile uphill hike over rocky and gently rolling terrain starting at Camp Round Meadow will lead you to these three-sided shelters.",
+          "latitude": "39.67775041640082",
+          "longitude": "-77.48462720159597",
+          "latLong": "{lat:39.67775041640082, lng:-77.48462720159597}",
+          "audioDescription": "The Adirondack shelters are three-walled and roofed structures on platforms about 2 feet off the ground. They are surrounded by forest and each has a fire ring.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "99E8FA77-1BB9-4EE9-916B-A824CE21A0DC",
+          "reservationInfo": "Reservations can be made at www.recreation.gov or by calling 877-444-6777.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/233321?q=Adirondack%20Shelters",
+          "regulationsurl": "http://www.nps.gov/cato/learn/management/superintendent-s-compendium.htm",
+          "regulationsOverview": "Minimum age for permittees is 18. Alcohol is prohibited. Horses, bicycles or other vehicles may not be taken to the shelter. Pets are prohibited. Fireworks or similar devices are prohibited. All drinking water must be carried in. Dead and down wood may be collected for firewood. Fires are permitted only in fireplace rings provided. Stoves or heaters should not be used in the shelters. Dishes and clothing should not be washed in natural water sources. Dispose of waste water at least 500 feet from the shelter site. All trash, including food scraps, must be carried out. Quiet hours are 10:00 p.m. until 6:00 a.m. Length of stay is limited to 7 calendar days or 14 days total in a calendar year.",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "3016639388",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  },
+                  {
+                      "phoneNumber": "3012710205",
+                      "description": "",
+                      "extension": "",
+                      "type": "Fax"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "CATO_superintendent@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "10.00",
+                  "description": "A reservation fee is charged for use of the shelters.",
+                  "title": "Reservation Fee"
+              }
+          ],
+          "directionsOverview": "Campers must park at Round Meadow (14840 Manahan Road, Sabillasville, MD 21780) and hike approximately 3 miles to the Adirondack shelters.",
+          "directionsUrl": "http://www.nps.gov/cato/planyourvisit/round-meadow-directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "The Adirondack shelters are available year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Adirondack Shelters Rental Information"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "21788",
+                  "city": "Thurmont",
+                  "stateCode": "MD",
+                  "line1": "6602 Foxville Road",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Adirondack Shelter",
+                  "altText": "Three-sided wooden shelter",
+                  "caption": "Two 3-sided shelters offer back-country solitude for hike-in campers.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/84B33A53-9EA2-D337-08E8948AFA1C1537.jpg"
+              }
+          ],
+          "weatherOverview": "Summer (June-Aug) average temperature is between 61 and 81 degrees Fahrenheit. Fall (Sep-Nov) average temperature is between 45 and 64 degrees Fahrenheit. Fall foliage is at its peak in mid-October Winter (Dec-Feb) average temperature is between 24 and 41 degrees Fahrenheit. Winter snowfall is between 5-12\" per month. Spring (March-May) average temperature is between 41 and 63 degrees Fahrenheit. Average precipitation is approximately 4 inches per month. (Source: usclimatedata.com)",
+          "numberOfSitesReservable": "2",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "2",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "2",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "None",
+              "internetInfo": "",
+              "cellPhoneInfo": "Cell phone service is sparse.",
+              "fireStovePolicy": "Fires in designated areas only.",
+              "rvAllowed": "0",
+              "rvInfo": "No",
+              "rvMaxLength": "0",
+              "additionalInfo": "No pets are allowed.",
+              "trailerMaxLength": "0",
+              "adaInfo": "The Adirondack shelters are not ADA accessible.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "No Roads"
+              ],
+              "classifications": [
+                  "Primitive Camping Areas"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "4F9ED6A5-3ED1-443D-9E4C-859D7988F199",
+          "url": "https://www.nps.gov/bica/planyourvisit/afterbay-campground.htm",
+          "name": "Afterbay Campground",
+          "parkCode": "bica",
+          "description": "- Near Fort Smith, Montana - Open All Year! - $30 per night fee - 22 RV and tent sites are located on the south shore of Afterbay lake - All sites have fire rings and picnic tables - Composting vault toilets - All sites are back in (not pull through) - All sites have electric and water - RV dump station available across the road near the Headquarters building",
+          "latitude": "45.315438210045016",
+          "longitude": "-107.94165891102676",
+          "latLong": "{lat:45.315438210045016, lng:-107.94165891102676}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "7F24B353-91F9-56B7-83CB-47807B7C6080",
+          "reservationInfo": "Please place a reservation for your site by calling 406-666-2333 during normal operating hours or after hours call 406-679-5599.",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "1. Overnight stays/camping in park is only allowed in established sites 2. Check-out is 12:00 pm 3. Quiet hours from 10:00 pm to 6:00 am; idling of motor vehicles is prohibited during quiet hours 4. Generators permitted from 8 am to 8 pm 5. Campsite occupancy may not exceed 14 cumulative days within a 28-day period 6. Collection of firewood is prohibited within the park 7. No attaching or tying items to trees 8. Pets must be leashed at all times and may not be left unattended",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Composting Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - seasonal",
+              "dumpStation": "Yes - seasonal",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "Yes - year round"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "(406) 666-2333",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  },
+                  {
+                      "phoneNumber": "406-679-5599",
+                      "description": "",
+                      "extension": "",
+                      "type": "Fax"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "dyanna.threeirons@crow-nsn.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "30.00",
+                  "description": "ALL Sites: $30.00 per night.\n\nCash and check only at this time. Please make checks payable to: Crow Tribe of Indians",
+                  "title": "Afterbay Campground Fee"
+              }
+          ],
+          "directionsOverview": "Take 313 through the town of Fort Smith, MT and follow the brown and white sign to Afterbay Campground. It will be on the right side of 313 just past the NPS Headquarters building.",
+          "directionsUrl": "https://www.google.com/maps/dir//Afterbay+South+Campground,+Fort+Smith,+MT+59035/@45.3135083,-107.9382166,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x5349b60ef11e2427:0x5360e17333e34042!2m2!1d-107.9417086!2d45.3154533",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Afterbay Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "59035",
+                  "city": "Fort Smith",
+                  "stateCode": "MT",
+                  "line1": "Afterbay Campground",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": "Rte 200"
+              },
+              {
+                  "postalCode": "59035",
+                  "city": "Fort Smith",
+                  "stateCode": "MT",
+                  "line1": "PO Box 7458",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS, Jen Prentiss",
+                  "crops": [],
+                  "title": "Afterbay Campground upper spots",
+                  "altText": "A gravel campground spot with a fire pit and picnic table with trees and afterbay lake in the back.",
+                  "caption": "Upper camp spots at Afterbay Campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/6EDA2637-E4C2-DD95-F0C82B84901ADDB2.jpg"
+              },
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "Afterbay Campground looking toward Grapevine Campground.",
+                  "altText": "Campground with lake in the background and Grapevine Campground in the distance.",
+                  "caption": "Afterbay Campground looking toward Grapevine Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/66989928-1DD8-B71B-0B561CB7F8470440.jpg"
+              },
+              {
+                  "credit": "Afterbay Campground Service",
+                  "crops": [],
+                  "title": "Afterbay Campground Map",
+                  "altText": "A hand drawn sketch of the layout of afterbay campground.",
+                  "caption": "Afterbay Campground Map",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/330D8DE8-EC87-D37E-AE029B7676E9130B.png"
+              },
+              {
+                  "credit": "NPS, Jen Prentiss",
+                  "crops": [],
+                  "title": "Afterbay Campground",
+                  "altText": "A gravel road with several side by side campgrounds lining the left side.",
+                  "caption": "Lower units at Afterbay Campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/6EC9B9FA-EE82-5B48-291D96A7469A02E3.jpg"
+              }
+          ],
+          "weatherOverview": "For the most recent weather forecast please look up Fort Smith, MT.",
+          "numberOfSitesReservable": "22",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "22",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "22",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "All sites are handicapped accessible. Campsite 6,7 and 19 are Designated Accessible campsites. Mens and Womens pit toilets are handicapped accessible.",
+              "internetInfo": "",
+              "cellPhoneInfo": "Cell phone reception is dependent on the carrier.",
+              "fireStovePolicy": "Check locally, dependent on conditions.",
+              "rvAllowed": "1",
+              "rvInfo": "All sites are handicapped accessible. Campsites 6,7 and 19 are Designated Accessible campsites. Mens and Womens pit toilets are handicapped accessible.",
+              "rvMaxLength": "0",
+              "additionalInfo": "Season is generally from Memorial Day to Labor Day. Please check at the Headquarters building for more information or call 307-568-5406.",
+              "trailerMaxLength": "0",
+              "adaInfo": "All sites are handicapped accessible. Mens and Womens pit toilets are handicapped accessible.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Limited Development Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "9FAE941D-D7E8-4F36-A28F-8556628242BA",
+          "url": "https://www.nps.gov/ozar/planyourvisit/akers-campground.htm",
+          "name": "Akers Group Campground",
+          "parkCode": "ozar",
+          "description": "Group campsites, located at Akers Ferry. The campground is located north of the junction of Highway KK and Highway K.",
+          "latitude": "37.3764551871",
+          "longitude": "-91.5615463252",
+          "latLong": "{lat:37.3764551871, lng:-91.5615463252}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "",
+          "reservationInfo": "Reservations may be made online at http://www.recreation.gov. If sites have not been reserved, they are available on a first-come-first-serve basis.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234442",
+          "regulationsurl": "http://www.nps.gov/ozar/learn/management/lawsandpolicies.htm",
+          "regulationsOverview": "Laws and policies governing park campgrounds can be found in the Superintendent's Compendium on the park website.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - seasonal",
+              "toilets": [
+                  "Vault Toilets - seasonal"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "Yes - seasonal",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "Yes - seasonal",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "5733234236",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "ozar_campground_operation@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "65.00",
+                  "description": "Summer group site fee from April 15 to October 15.",
+                  "title": "Summer group site fee"
+              }
+          ],
+          "directionsOverview": "",
+          "directionsUrl": "",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Group campsites, located at Akers Ferry.  The campground is located at the junction of Highway KK and Highway K.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Akers Ferry"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "65466",
+                  "city": "Eminence",
+                  "stateCode": "MO",
+                  "line1": "5170 Akers Campground RD",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "63965",
+                  "city": "Van Buren",
+                  "stateCode": "MO",
+                  "line1": "P.O. Box 490",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS",
+                  "crops": [],
+                  "title": "Akers",
+                  "altText": "Map showing campsites, restrooms, ranger station, roads and river",
+                  "caption": "Akers has group camp sites only.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/819AA64D-F303-A68D-186A6CAF1E9AD2A4.jpg"
+              },
+              {
+                  "credit": "NPS",
+                  "crops": [],
+                  "title": "Akers",
+                  "altText": "Map showing campsites, restrooms, ranger station, roads and river",
+                  "caption": "Akers has group camp sites only.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/819AA64D-F303-A68D-186A6CAF1E9AD2A4.jpg"
+              }
+          ],
+          "weatherOverview": "Ozark National Scenic Riverways is located in southeast Missouri. Summer temperatures generally range from 75-100 degrees with high humidity. Winter temperatures generally range from 0-50 degrees with periods of intermittent freezing and snow.",
+          "numberOfSitesReservable": "4",
+          "numberOfSitesFirstComeFirstServe": "4",
+          "campsites": {
+              "totalSites": "4",
+              "group": "4",
+              "horse": "0",
+              "tentOnly": "4",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "No wheelchair access.",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "Fires in designated fire rings only.",
+              "rvAllowed": "0",
+              "rvInfo": "No RVs or trailers allowed.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "Group sites are not accessible.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Designated Primitive Campsites"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "6EAB2A34-0D56-4A15-99E2-E41C06B0FF86",
+          "url": "https://www.nps.gov/orpi/planyourvisit/alamo-canyon.htm",
+          "name": "Alamo Canyon Primitive Campground",
+          "parkCode": "orpi",
+          "description": "Primitive, four-site campground at the mouth of Alamo Canyon. No RVs, trailers or generators.",
+          "latitude": "32.072943",
+          "longitude": "-112.728093",
+          "latLong": "{lat:32.072943, lng:-112.728093}",
+          "audioDescription": "Alamo Campground is nestled against small, rocky mountains and located right at the opening of Alamo Canyon. The campground includes four primitive sites, each with a picnic table and standing grill. Thick stands of organ pipe cacti and saguaros surround the campground. To the south of the campground is a wash where the canyon exits; the wash is full of desert greenery. In the center of the campground is a small informational bulletin board, and close by is a vault toilet restroom.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "",
+          "reservationInfo": "All campsites are reserved through Recreation.gov or by calling 877-444-6777. Sites may be reserved the same day or up to six months in advance.",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/247566",
+          "regulationsurl": "http://www.nps.gov/orpi/planyourvisit/alamo-canyon.htm",
+          "regulationsOverview": "Length of stay is limited to 7 consecutive days. Campers must park in the space provided at their assigned campsite. Generators are not allowed. Checkout time is 11am. No ground fires are allowed. Fires are allowed in the raised grills, or in raised fire pans that are at least 6 inches off the ground.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "5203876849",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "orpi_information@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "16.00",
+                  "description": "Fee is per site, per night.",
+                  "title": "Alamo Canyon Camping Fee"
+              },
+              {
+                  "cost": "8.00",
+                  "description": "Holders of the interagency senior or access pass are entitled to half price camping.",
+                  "title": "Alamo Canyon Campground- Senior/Access Rate"
+              }
+          ],
+          "directionsOverview": "Campground is located at the end of the Alamo Canyon Road. Road junction with Highway 85 is located halfway between milepost 65 and 66 on the eastern side of the highway. There is no road sign. The road begins on the north side of the concrete bridge that crosses the wash. Road is suitable for all cars.",
+          "directionsUrl": "http://www.nps.gov/orpi/planyourvisit/alamo-canyon.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Open 24 hours a day, 365 days a year.  You can self-register 24 hours a day at the campground.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Alamo Canyon Primitive Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "85321",
+                  "city": "Ajo",
+                  "stateCode": "AZ",
+                  "line1": "Alamo Canyon Road",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "85321",
+                  "city": "Ajo",
+                  "stateCode": "AZ",
+                  "line1": "10 Organ Pipe Drive",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Alamo Scenery",
+                  "altText": "A wash runs with water below cacti and a large mountain",
+                  "caption": "The surrounding landscape at the campground is full of life.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/30AD9C86-B408-5598-F21072B2495F43BF.jpg"
+              },
+              {
+                  "credit": "NPS Photo",
+                  "crops": [],
+                  "title": "tent At Alamo Canyon Campground",
+                  "altText": "tent pitched on the ground at alamo canyon in front of saguaro and organ pipe cacti",
+                  "caption": "Tent campers flock to the primitive experience at Alamo Canyon",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/42ECB7F0-1DD8-B71B-0BC1E1974084840F.jpg"
+              },
+              {
+                  "credit": "NPS Photo/ K Ceballos",
+                  "crops": [],
+                  "title": "Alamo Campground",
+                  "altText": "Campground site with a picnic table and standing grill, with mountains and canyon in the background",
+                  "caption": "Many visitors seeking seclusion and solitude enjoy the Alamo Canyon campground.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/B66DA656-CA99-CCAC-10984C1F2CB60197.jpg"
+              },
+              {
+                  "credit": "NPS Photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Information Sign and Bathroom",
+                  "altText": "The Alamo Canyon information sign is located near the vault toilet.",
+                  "caption": "The Alamo Canyon Information board has tips on how to safely enjoy your time at Organ Pipe Cactus.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/30193427-0135-8743-9598A45313A989B7.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Picnic Table and Grill",
+                  "altText": "Photo of a picnic table and charcoal grill from a campsite",
+                  "caption": "Each site has a picnic table and grill",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/306EB48C-F39D-7BDF-176FC4F184216E85.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Tent Site",
+                  "altText": "A circle of rocks indicate the location of a tent site at the campground",
+                  "caption": "Alamo Canyon is a tent-only campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/30C7B89B-9741-70BA-C9161F8F0D927D61.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Accessible Parking and Pit Toilet",
+                  "altText": "The accessible parking is close to the pit toilet",
+                  "caption": "The parking, ramp to the toilet, and toilet itself are all accessible.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/304F1949-03B1-33DB-A9ADA722B64DAC55.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Garbage Bins",
+                  "altText": "Garbage bins at Alamo Canyon Campground",
+                  "caption": "There are garbage receptacles provided at the campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/307DCB91-E364-49DB-74A03DD29A7CCD61.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Alamo Canyon Trail",
+                  "altText": "The Alamo Canyon trail is surrounded by many kinds of cacti and leads into the mountains",
+                  "caption": "Explore the 1.8-mile Alamo Canyon trail that goes to an old ranching site.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/30323CBF-900D-448E-0F64822FFFA221EE.jpg"
+              },
+              {
+                  "credit": "NPS photo/Cate Blanch",
+                  "crops": [],
+                  "title": "Road Sign",
+                  "altText": "The road sign for Alamo Canyon Campground points down a dirt road",
+                  "caption": "Once you turn onto the Alamo Canyon Road, you'll see the sign directing you to the campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/309DFF4E-B86D-E787-6FC8712D6F698962.jpg"
+              }
+          ],
+          "weatherOverview": "Winter temperatures are mild, with daytime highs in the 60s and lows in the 40s. Summer temperatures are hot, with daytime highs often exceeding 110F.",
+          "numberOfSitesReservable": "4",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "4",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "4",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "There are no ADA campsites, although the sites are flat and level.",
+              "internetInfo": "",
+              "cellPhoneInfo": "Cell reception is spotty and dependent on carrier. AT&T doesn't work in this area; Verizon works best.",
+              "fireStovePolicy": "No ground fires are allowed. Fires are allowed in the raised grills, or in raised fire pans that are at least 6 inches off the ground.",
+              "rvAllowed": "0",
+              "rvInfo": "No RVs or trailers are allowed.",
+              "rvMaxLength": "0",
+              "additionalInfo": "Campground is very popular in the winter time.",
+              "trailerMaxLength": "0",
+              "adaInfo": "Restroom (vault toilet) is ADA accessible. Restroom is open 24 hours. Accessible parking is available at the restroom.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Limited Development Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "AB15EC6C-7761-4DFF-A4AC-38E6A9986FB7",
+          "url": "https://www.nps.gov/ozar/planyourvisit/alley-spring-campground.htm",
+          "name": "Alley Spring Campground",
+          "parkCode": "ozar",
+          "description": "Campground located near Alley Spring, 6 miles west of Eminence, MO on State Highway 106.",
+          "latitude": "37.148223",
+          "longitude": "-91.44976700000001",
+          "latLong": "{lat:37.148223, lng:-91.44976700000001}",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "15939808-8584-4BE5-AB8F-2FBB6EE984AC",
+          "reservationInfo": "Reservations for reservable sites may be made online at http://www.recreation.gov",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/234046",
+          "regulationsurl": "http://www.nps.gov/ozar/learn/management/lawsandpolicies.htm",
+          "regulationsOverview": "Laws and policies governing park campgrounds can be found in the Superintendent's Compendium on the park website.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Flush Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "Free - Seasonal",
+                  "Hot - Year Round"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "Yes - seasonal",
+              "dumpStation": "Yes - year round",
+              "campStore": "Yes - seasonal",
+              "staffOrVolunteerHostOnsite": "Yes - seasonal",
+              "potableWater": [
+                  "Yes - seasonal"
+              ],
+              "iceAvailableForSale": "Yes - seasonal",
+              "firewoodForSale": "Yes - seasonal",
+              "foodStorageLockers": "No"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "5733234236",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "ozar_campground_operations@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "30.00",
+                  "description": "Electric site fee for April 15 to October 15",
+                  "title": "Summer electric site camping fee"
+              },
+              {
+                  "cost": "20.00",
+                  "description": "Non- electric site fee from April 15 to October 15",
+                  "title": "Summer non-electric camping site fee"
+              },
+              {
+                  "cost": "140.00",
+                  "description": "Group site fee April 15 to October 15",
+                  "title": "Summer group site fee"
+              },
+              {
+                  "cost": "45.00",
+                  "description": "Cluster site fee April 15 - October 15.  Cluster sites allow 7-20 people, and 6 tents;  OR 4 tents and 2 RVs.",
+                  "title": "Summer cluster site fee"
+              },
+              {
+                  "cost": "30.00",
+                  "description": "Fee to reserve Burr Oak or Alley Spring pavilions on http://www.recreation.gov.  May be reserved April 15-October 15.",
+                  "title": "Summer pavilion reservation fee"
+              },
+              {
+                  "cost": "20.00",
+                  "description": "Fee for electric campsites from October 16 to April 14.",
+                  "title": "Winter electric campsite fee"
+              },
+              {
+                  "cost": "10.00",
+                  "description": "Fee for non-electric campsites from October 16 to April 14.",
+                  "title": "Winter non-electric campsite fee"
+              }
+          ],
+          "directionsOverview": "Alley Spring campground is located 6 miles west of Eminence, MO, on State Highway 106. It sits on the bank of the Jacks Fork River.",
+          "directionsUrl": "",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Alley Spring campground is open daily year-round.  Campers only from 10 p.m. to 6 a.m.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Alley Spring Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "65466",
+                  "city": "Eminence",
+                  "stateCode": "MO",
+                  "line1": "11544 Alley Spring Residence Road",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "63965",
+                  "city": "Van Buren",
+                  "stateCode": "MO",
+                  "line1": "P. O. Box 490",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS",
+                  "crops": [],
+                  "title": "Alley Spring Campground Map",
+                  "altText": "a map showing campsites, roads, trails, restrooms, river access, showers",
+                  "caption": "Alley Spring Campground Map",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/97D6C606-E0E0-0E3E-658D4B56D865604D.jpg"
+              }
+          ],
+          "weatherOverview": "Ozark National Scenic Riverways is located in southeast Missouri. Summer temperatures generally range from 75-100 degrees with high humidity. Winter temperatures generally range from 0-50 degrees with periods of intermittent freezing and snow.",
+          "numberOfSitesReservable": "102",
+          "numberOfSitesFirstComeFirstServe": "62",
+          "campsites": {
+              "totalSites": "162",
+              "group": "3",
+              "horse": "0",
+              "tentOnly": "3",
+              "electricalHookups": "28",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "There are 2 accessible sites (#609 and #217). Both are located near accessible restroom facilities, with paved walkways to those facilities. The entire campground is paved, with sidewalks up to the shower facility, which is centrally located.",
+              "internetInfo": "",
+              "cellPhoneInfo": "Cell service very unreliable.",
+              "fireStovePolicy": "Fires in designated fire rings only.",
+              "rvAllowed": "1",
+              "rvInfo": "Are allowed.",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "There are 2 accessible sites (#609 and #217). Both are located near the accessible restroom facilities, with paved walkways to those facilities.",
+              "trailerAllowed": "1",
+              "accessRoads": [
+                  "Paved Roads - All vehicles OK"
+              ],
+              "classifications": [
+                  "Developed Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "4F9E59DF-BFCB-400F-8F4E-6A5233A47324",
+          "url": "https://www.nps.gov/biso/planyourvisit/alumfordcampground.htm",
+          "name": "Alum Ford Campground",
+          "parkCode": "biso",
+          "description": "Alum Ford is a primitive campground and offers six campsites with a vault toilet facility. No drinking water is located at this area. Alum Ford also has a boat ramp. There are no fees to use the ramp.",
+          "latitude": "36.764033745775",
+          "longitude": "-84.5463375728999",
+          "latLong": "{lat:36.764033745775, lng:-84.5463375728999}",
+          "audioDescription": "The campground sits at the end of a gravel road with an entrance that passes by a small building with a bulletin board of information. This is where campers get information about the park. All sites have a gravel parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. There is a vault toilet at the end of the campground road. The women's room is on the right and the men's room is on the left. Both are accessible.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "C34605A0-4F20-4B87-9CD9-FC53B14BC9AB",
+          "reservationInfo": "This campground is open year-round on the honor system. Sites may not be reserved.",
+          "reservationUrl": "",
+          "regulationsurl": "https://www.nps.gov/biso/planyourvisit/upload/2009-Alum-Ford-Campground.pdf",
+          "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is allowed on the asphalt surface ONLY, not on the grass or gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) Alcohol is prohibited in the Kentucky area of the Park. All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Bicycles may be ridden at night only if you have a light in the front and a red reflective marker on the back.",
+          "amenities": {
+              "trashRecyclingCollection": "Yes - year round",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "No",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "Yes - year round"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "4232867275",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "biso_information@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "5.00",
+                  "description": "This fee is for one night of camping for up to six persons per site. Holders of the Interagency Access/Senior Passport pay only half the fee per night.",
+                  "title": "Campsite Fee"
+              }
+          ],
+          "directionsOverview": "Exit I-75 onto HWY 92 at Williamsburg (Exit 11). (This road has been recently upgraded and provides a direct access to Stearns and Blue Heron) Turn right on 92 for approximately 7 miles to the intersection of Hwy 700 and US 27 . Turn Left onto Hwy 700 and continue approximately 5.5 miles to the campground.",
+          "directionsUrl": "http://www.nps.gov/biso/planyourvisit/directions.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Alum Ford is a primitive campground and offers six campsites with a vault toilet facility.  This campground is open year-round on a first come-first serve basis.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Alum Ford Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "42653",
+                  "city": "Whitley City",
+                  "stateCode": "KY",
+                  "line1": "State Hwy 700",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "37841",
+                  "city": "Oneida",
+                  "stateCode": "TN",
+                  "line1": "4564 Leatherwood Road",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "NPS",
+                  "crops": [],
+                  "title": "Campsite at Alum Ford Campground",
+                  "altText": "Campsite with leaves and picnic table",
+                  "caption": "One of the few areas where visitors can camp near the river.",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3C81F483-1DD8-B71B-0B5CBEB6FD050CCF.jpg"
+              }
+          ],
+          "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "6",
+          "campsites": {
+              "totalSites": "6",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "6",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Campsite number 7 is wheelchair accessible on a gravel surface. The vault toilet is accessible on a paved surface.",
+              "internetInfo": "",
+              "cellPhoneInfo": "Cell phone reception is poor in this area due to the gorge.",
+              "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+              "rvAllowed": "0",
+              "rvInfo": "No RVs in this campground.",
+              "rvMaxLength": "0",
+              "additionalInfo": "The campground is located adjacent to the Alum Ford Boat Launch, providing access for motorized boats to this remote section of Lake Cumberland. The Sheltowee Trace National Recreational Trail also passes through the campground. The Sheltowee Trace is a 260-mile back country trail through Daniel Boone National Forest, Big South Fork NRRA, and Natural Bridge, Cumberland Falls, & Pickett State Parks in Kentucky and Tennessee.",
+              "trailerMaxLength": "0",
+              "adaInfo": "There is one accessible site located at the end of the campground near the vault toilet which is also accessible. The surface is gravel only.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "Unpaved Roads - All vehicles OK in good weather"
+              ],
+              "classifications": [
+                  "Limited Development Campground"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "B0B25595-CE24-4E9C-B0CD-93912216F113",
+          "url": "",
+          "name": "American Memorial Park",
+          "parkCode": "amme",
+          "description": "There are no campgrounds in the park.",
+          "latitude": "",
+          "longitude": "",
+          "latLong": "",
+          "audioDescription": "",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "",
+          "reservationInfo": "",
+          "reservationUrl": "",
+          "regulationsurl": "",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "",
+              "toilets": [],
+              "internetConnectivity": "",
+              "showers": [],
+              "cellPhoneReception": "",
+              "laundry": "",
+              "amphitheater": "",
+              "dumpStation": "",
+              "campStore": "",
+              "staffOrVolunteerHostOnsite": "",
+              "potableWater": [],
+              "iceAvailableForSale": "",
+              "firewoodForSale": "",
+              "foodStorageLockers": ""
+          },
+          "contacts": {
+              "phoneNumbers": [],
+              "emailAddresses": []
+          },
+          "fees": [],
+          "directionsOverview": "",
+          "directionsUrl": "",
+          "operatingHours": [],
+          "addresses": [
+              {
+                  "postalCode": "96950",
+                  "city": "Saipan",
+                  "stateCode": "MP",
+                  "line1": "",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [],
+          "weatherOverview": "",
+          "numberOfSitesReservable": "0",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "0",
+              "group": "0",
+              "horse": "0",
+              "tentOnly": "0",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "0",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "",
+              "rvAllowed": "0",
+              "rvInfo": "",
+              "rvMaxLength": "0",
+              "additionalInfo": "",
+              "trailerMaxLength": "0",
+              "adaInfo": "",
+              "trailerAllowed": "0",
+              "accessRoads": [],
+              "classifications": []
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      },
+      {
+          "id": "E7CC7363-9C34-42ED-B3F0-769BB39E9400",
+          "url": "https://www.recreation.gov/camping/anacapa-island/r/campgroundDetails.do?contractCode=NRSO&parkId=70984",
+          "name": "Anacapa Island Campground",
+          "parkCode": "chis",
+          "description": "Primitive camping is available (seven sites; $15 per night per site; reservations required). Picnic table, food storage box, and pit toilet are provided. No water is available. Distance from landing to campground is one-half mile and includes a 157-stair climb. WARNING: Western gulls nest on Anacapa Island From April through mid-August. During this time, visitors will encounter seabird rookery conditions: guano, strong odor, constant noise, bird carcasses, and birds protecting their territory.",
+          "latitude": "34.0143426535482",
+          "longitude": "-119.367763068282",
+          "latLong": "{lat:34.0143426535482, lng:-119.367763068282}",
+          "audioDescription": "This campground is set amongst the native plants on the south side of the island. There are 7 sites that are marked by railroad ties. A table and picnic table are located at each site. A bathroom sits near the entrance to the campground.",
+          "isPassportStampLocation": "0",
+          "passportStampLocationDescription": "",
+          "passportStampImages": [],
+          "geometryPoiId": "1F7B2583-AC0B-4CFB-B09A-C54B48867E2C",
+          "reservationInfo": "Advanced camping reservations are required for all of the park's campgrounds. There are no entrance fees to visit the park. However, a reservation fee of $15.00 is charged for camping on the islands. For six of the sites, this fee covers up to four people. For one of the sites, it covers up to six people. Reservations can be made by calling (877) 444-6777 or through http://www.recreation.gov/",
+          "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232502",
+          "regulationsurl": "http://www.nps.gov/chis/learn/management/lawsandpolicies.htm",
+          "regulationsOverview": "",
+          "amenities": {
+              "trashRecyclingCollection": "No",
+              "toilets": [
+                  "Vault Toilets - year round"
+              ],
+              "internetConnectivity": "No",
+              "showers": [
+                  "None"
+              ],
+              "cellPhoneReception": "No",
+              "laundry": "No",
+              "amphitheater": "No",
+              "dumpStation": "No",
+              "campStore": "No",
+              "staffOrVolunteerHostOnsite": "Yes - year round",
+              "potableWater": [
+                  "No water"
+              ],
+              "iceAvailableForSale": "No",
+              "firewoodForSale": "No",
+              "foodStorageLockers": "Yes - year round"
+          },
+          "contacts": {
+              "phoneNumbers": [
+                  {
+                      "phoneNumber": "8056585730",
+                      "description": "",
+                      "extension": "",
+                      "type": "Voice"
+                  }
+              ],
+              "emailAddresses": [
+                  {
+                      "description": "",
+                      "emailAddress": "chis_information@nps.gov"
+                  }
+              ]
+          },
+          "fees": [
+              {
+                  "cost": "15.00",
+                  "description": "Advanced camping reservations are required for all of the park's campgrounds. There are no entrance fees to visit the park. However, a reservation fee of $15.00 per site-per night is charged for camping on the islands. For six of the sites on Anacapa Island, this fee covers up to four people. For one of the sites, it covers up to six people. Reservations can be made by calling (877) 444-6777 or through http://www.recreation.gov/",
+                  "title": "Anacapa Island Campground Fee"
+              }
+          ],
+          "directionsOverview": "Anacapa Island Campground is only accessible by boat. Visit our island transportation webpage for more information: http://www.nps.gov/chis/planyourvisit/island-transportation.htm The hike to the campground is 157 stairs and .5 miles from the boat landing.",
+          "directionsUrl": "http://www.nps.gov/chis/planyourvisit/island-transportation.htm",
+          "operatingHours": [
+              {
+                  "exceptions": [],
+                  "description": "Anacapa Island campground is open year round.",
+                  "standardHours": {
+                      "wednesday": "All Day",
+                      "monday": "All Day",
+                      "thursday": "All Day",
+                      "sunday": "All Day",
+                      "tuesday": "All Day",
+                      "friday": "All Day",
+                      "saturday": "All Day"
+                  },
+                  "name": "Anacapa Island Campground"
+              }
+          ],
+          "addresses": [
+              {
+                  "postalCode": "93001",
+                  "city": "Anacapa Island",
+                  "stateCode": "CA",
+                  "line1": "Anacapa Island Campground",
+                  "type": "Physical",
+                  "line3": "",
+                  "line2": ""
+              },
+              {
+                  "postalCode": "93001",
+                  "city": "Ventura",
+                  "stateCode": "CA",
+                  "line1": "1901 Spinnaker Drive",
+                  "type": "Mailing",
+                  "line3": "",
+                  "line2": ""
+              }
+          ],
+          "images": [
+              {
+                  "credit": "Tim Hauf, timhaufphotography.com",
+                  "crops": [],
+                  "title": "Anacapa Island Campground by Tim Hauf",
+                  "altText": "Within a field of yellow flowers lie tents that overlook historic buildings and the ocean.",
+                  "caption": "Anacapa Island Campground",
+                  "url": "https://www.nps.gov/common/uploads/structured_data/3C7AB470-1DD8-B71B-0B72BD9A775B0E8C.jpg"
+              }
+          ],
+          "weatherOverview": "Campers should be prepared for a variety of weather conditions. Sturdy, low-profile tents, stakes, and line for securing tents to ground or table. Fog can occur on the islands during any season producing cool, damp conditions. There are no trees or shade on Anacapa. Overexposure to the wind and sun can be a serious problem. Visitors are advised to bring supplies for an extra day in case boats are unable to pick up campers due to sea conditions. Current weather: http://channelislands.noaa.gov/news/kiosk.html",
+          "numberOfSitesReservable": "7",
+          "numberOfSitesFirstComeFirstServe": "0",
+          "campsites": {
+              "totalSites": "7",
+              "group": "1",
+              "horse": "0",
+              "tentOnly": "7",
+              "electricalHookups": "0",
+              "rvOnly": "0",
+              "walkBoatTo": "7",
+              "other": "0"
+          },
+          "accessibility": {
+              "wheelchairAccess": "Due to Anacapa Island's isolation, steep cliffs, and boat transportation requirements, the Anacapa Island Campground is not accessible for individuals in wheelchairs or those with limited mobility.",
+              "internetInfo": "",
+              "cellPhoneInfo": "",
+              "fireStovePolicy": "No fires are permitted. Use only enclosed, gas camp stoves.",
+              "rvAllowed": "0",
+              "rvInfo": "Anacapa Island is only accessible via boat.",
+              "rvMaxLength": "0",
+              "additionalInfo": "Anacapa Island is only accessible via boat. All campgrounds are located away from the boat landing areas. Visitors must carry all their gear to the campgrounds. No on-island transportation is provided.",
+              "trailerMaxLength": "0",
+              "adaInfo": "Due to Anacapa Island's isolation, steep cliffs, and boat transportation requirements, the Anacapa Island Campground is not accessible for individuals in wheelchairs or those with limited mobility.",
+              "trailerAllowed": "0",
+              "accessRoads": [
+                  "No Roads"
+              ],
+              "classifications": [
+                  "Designated Primitive Campsites"
+              ]
+          },
+          "multimedia": [],
+          "lastIndexedDate": ""
+      }
+  ]
+}

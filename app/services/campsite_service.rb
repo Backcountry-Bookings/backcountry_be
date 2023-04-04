@@ -16,6 +16,10 @@ class CampsiteService
     parse(conn.get("/api/v1/campgrounds?parkCode=#{park}"))
   end
 
+  def self.find_by_location(lat, long)
+    parse(conn.get("/api/v1/campgrounds?lat=#{lat}&long=#{long}"))
+  end
+
   def self.parse(response)
     JSON.parse(response.body, symbolize_names: true)
   end

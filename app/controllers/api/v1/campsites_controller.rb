@@ -8,6 +8,8 @@ class Api::V1::CampsitesController < ApplicationController
     elsif params[:park_name]
       park_code = convert_to_park_code(params[:park_name].upcase)
       campsites = CampsiteFacade.get_campsites_by_park(park_code)
+    elsif params[:lat] && params[:long]
+      campsites = CampsiteFacade.get_campsites_by_location(params[:lat], params[:long])
     end
     render json: CampsiteSearchSerializer.new(campsites)
   end
