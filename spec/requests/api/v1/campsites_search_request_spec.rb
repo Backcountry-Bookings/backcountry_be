@@ -108,7 +108,7 @@ RSpec.describe 'CampsitesSearch API' do
       campsite_details = JSON.parse(response.body, symbolize_names: true)
 
       expect(campsite_details).to have_key(:errors)
-      expect(campsite_details[:errors]).to eq('No park found')
+      expect(campsite_details[:errors]).to eq('No campsites found')
     end
 
     it 'returns an error when a state code is not found' do
@@ -117,7 +117,7 @@ RSpec.describe 'CampsitesSearch API' do
       campsite_details = JSON.parse(response.body, symbolize_names: true)
 
       expect(campsite_details).to have_key(:errors)
-      expect(campsite_details[:errors]).to eq('No state found')
+      expect(campsite_details[:errors]).to eq('No campsites found')
     end
   end
 
