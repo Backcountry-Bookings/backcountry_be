@@ -21,17 +21,13 @@ class Api::V1::ReviewsController < ApplicationController
     
     if params[:img_file].present?
       if correct_file_size
-      elsif correct_content_type
+      elsif correct_content_type(user)
       else
         render json: { error: "Img file has an invalid content type" }, status: 400
       end
     
     elsif review = user.reviews.new(review_params)
-      if review.save
-        render json: { success: 'Review saved' }, status: 201
-      else
-        render json: { error: review.errors.full_messages.to_sentence }, status: 400
-      end
+      review_save(review)
     end
   end
 
@@ -52,18 +48,18 @@ class Api::V1::ReviewsController < ApplicationController
     end
   end
 
-  def correct_content_type
+  def correct_content_type(user)
     if params[:img_file].content_type.include?(FILE_VALIDATIONS[:content_types].first) || params[:img_file].content_type.include?(FILE_VALIDATIONS[:content_types].last)
-    review = user.reviews.new(review_params)
-    review_save(review)
+      review = user.reviews.new(review_params)
+      review_save(review)
     end
   end
 
   def review_save(review)
     if review.save
-    render json: { success: 'Review saved' }, status: 201
+      render json: { success: 'Review saved' }, status: 201
     else
-    render json: { error: review.errors.full_messages.to_sentence }, status: 400
+      render json: { error: review.errors.full_messages.to_sentence }, status: 400
     end
   end
 
