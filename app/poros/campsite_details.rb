@@ -1,4 +1,4 @@
-class Campsite 
+class CampsiteDetails
   include ParkNameConverter
 
   attr_reader :name,

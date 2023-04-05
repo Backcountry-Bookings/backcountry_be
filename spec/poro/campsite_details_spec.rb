@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Campsite do 
+RSpec.describe CampsiteDetails do 
   before :each do 
     stub_request(:get, "https://developer.nps.gov/api/v1/campgrounds?api_key=#{ENV['NPS_API_KEY']}&q=7475825B-E844-4012-841B-0E29E05D4540&limit=1")
       .to_return(status: 200, body: File.read('./spec/fixtures/campsite_details.json'), headers: {})
@@ -9,7 +9,7 @@ RSpec.describe Campsite do
   it 'exists and has attributes' do 
     campsite = CampsiteFacade.get_campsite('7475825B-E844-4012-841B-0E29E05D4540')
   
-    expect(campsite).to be_a(Campsite)
+    expect(campsite).to be_a(CampsiteDetails)
     expect(campsite.name).to eq("Aspenglen Campground")
     expect(campsite.id).to eq("7475825B-E844-4012-841B-0E29E05D4540")
     expect(campsite.lat).to eq("40.39934770583215")
