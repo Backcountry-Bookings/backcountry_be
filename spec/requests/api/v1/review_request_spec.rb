@@ -39,7 +39,7 @@ RSpec.describe 'Review' do
       expect(response).to be_successful
 
       reviews = JSON.parse(response.body, symbolize_names: true)
-
+      
       expect(reviews).to be_a(Hash)
       expect(reviews).to have_key(:data)
       expect(reviews[:data]).to be_an(Array)
@@ -61,6 +61,8 @@ RSpec.describe 'Review' do
       expect(reviews[:data].first[:attributes][:image_url]).to be_a(String)
       expect(reviews[:data].first[:attributes]).to have_key(:name)
       expect(reviews[:data].first[:attributes][:name]).to be_a(String)
+      expect(reviews[:data].first[:attributes]).to have_key(:created_at)
+      expect(reviews[:data].first[:attributes][:created_at]).to be_a(String)
     end 
 
     it 'returns no image message if image not attached' do 
