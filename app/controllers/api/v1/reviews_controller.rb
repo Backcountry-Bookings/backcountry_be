@@ -1,4 +1,10 @@
 class Api::V1::ReviewsController < ApplicationController
+  FILE_VALIDATIONS = {
+    content_types: ["image/jpeg", "image/png"],
+    max_size: 5.megabytes,
+    min_size: 1.kilobyte
+  }
+
   def index
     if reviews = Review.all.find_all{ |review| review.campsite_id == params[:campsite_id] }
       render json: ReviewSerializer.new(reviews)
@@ -13,12 +19,15 @@ class Api::V1::ReviewsController < ApplicationController
     
     user = User.find_by(id: params[:user_id])
     
-    review = user.reviews.new(review_params)
+    if params[:img_file].present?
+      if correct_file_size
+      elsif correct_content_type(user)
+      else
+        render json: { error: "Img file has an invalid content type" }, status: 400
+      end
     
-    if review.save
-      render json: { success: 'Review saved' }, status: 201
-    else
-      render json: { error: review.errors.full_messages.to_sentence }, status: 400
+    elsif review = user.reviews.new(review_params)
+      review_save(review)
     end
   end
 
@@ -32,6 +41,27 @@ class Api::V1::ReviewsController < ApplicationController
   end
 
   private
+
+  def correct_file_size
+    if (params[:img_file].size > FILE_VALIDATIONS[:max_size]) || (params[:img_file].size < FILE_VALIDATIONS[:min_size])
+      render json: { error: "Img file is not given between size" }, status: 400
+    end
+  end
+
+  def correct_content_type(user)
+    if params[:img_file].content_type.include?(FILE_VALIDATIONS[:content_types].first) || params[:img_file].content_type.include?(FILE_VALIDATIONS[:content_types].last)
+      review = user.reviews.new(review_params)
+      review_save(review)
+    end
+  end
+
+  def review_save(review)
+    if review.save
+      render json: { success: 'Review saved' }, status: 201
+    else
+      render json: { error: review.errors.full_messages.to_sentence }, status: 400
+    end
+  end
 
   def review_params 
     params.permit(:campsite_id, :description, :rating, :site_name, :img_file, :name)

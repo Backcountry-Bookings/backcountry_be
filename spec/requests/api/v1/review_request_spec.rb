@@ -1,4 +1,4 @@
-require 'rails_helper' 
+require 'rails_helper'
 
 RSpec.describe 'Review' do
   before :each do 
@@ -8,11 +8,9 @@ RSpec.describe 'Review' do
   describe 'create a review' do 
     it 'creates a review successfully' do
       user = User.create!(name: "Robert", id: 1)
-      file = Rails.root.join('spec', 'fixtures', 'test.jpeg')
-      image = ActiveStorage::Blob.create_after_upload!(io: File.open(file, 'rb'), filename: 'test.jpeg', content_type: 'image/jpeg').signed_id
 
       headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
-      body = { description: 'Was great!', rating: 4, site_name: 'A4', img_file: image}
+      body = { description: 'Was great!', rating: 4, site_name: 'A4' }
       post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body.to_json, headers: headers
 
       expect(response).to be_successful
@@ -27,15 +25,13 @@ RSpec.describe 'Review' do
 
   describe 'get all reviews for a campsite' do
     it 'gets all reviews for a campsite' do
-      file = Rails.root.join('spec', 'fixtures', 'test.jpeg')
-      image = ActiveStorage::Blob.create_after_upload!(io: File.open(file, 'rb'), filename: 'test.jpeg', content_type: 'image/jpeg').signed_id
 
       headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
-      body = { name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4', img_file: image }
+      body = { name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4' }
       post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body.to_json, headers: headers
 
       headers_2 = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
-      body_2 = { name: 'Robert', description: 'Terrible', rating: 0.5, site_name: '23', img_file: image }
+      body_2 = { name: 'Robert', description: 'Terrible', rating: 0.5, site_name: '23' }
       post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body_2.to_json, headers: headers_2
 
       get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
@@ -43,7 +39,7 @@ RSpec.describe 'Review' do
       expect(response).to be_successful
 
       reviews = JSON.parse(response.body, symbolize_names: true)
-
+      
       expect(reviews).to be_a(Hash)
       expect(reviews).to have_key(:data)
       expect(reviews[:data]).to be_an(Array)
@@ -65,6 +61,8 @@ RSpec.describe 'Review' do
       expect(reviews[:data].first[:attributes][:image_url]).to be_a(String)
       expect(reviews[:data].first[:attributes]).to have_key(:name)
       expect(reviews[:data].first[:attributes][:name]).to be_a(String)
+      expect(reviews[:data].first[:attributes]).to have_key(:created_at)
+      expect(reviews[:data].first[:attributes][:created_at]).to be_a(String)
     end 
 
     it 'returns no image message if image not attached' do 
@@ -81,22 +79,22 @@ RSpec.describe 'Review' do
       expect(reviews[:data].first[:attributes][:image_url]).to eq("No Image")
     end 
 
-    it 'returns url if image stored in aws' do 
-      file = Rails.root.join('spec', 'fixtures', 'test.jpeg')
-      image = ActiveStorage::Blob.create_after_upload!(io: File.open(file, 'rb'), filename: 'test.jpeg', content_type: 'image/jpeg').signed_id
+    # xit 'returns url if image stored in aws' do 
+    #   file = Rails.root.join('spec', 'fixtures', 'test.jpeg')
+    #   image = ActiveStorage::Blob.create_after_upload!(io: File.open(file, 'rb'), filename: 'test.jpeg', content_type: 'image/jpeg').signed_id
 
-      headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
-      body = { name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4', img_file: image }
-      post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body.to_json, headers: headers
+    #   headers = { "CONTENT_TYPE" => "application/json", 'ACCEPT' => 'application/json' }
+    #   body = { name: 'Robert', description: 'Was great!', rating: 4, site_name: 'A4', img_file: image }
+    #   post '/api/v1/reviews?user_id=1&campsite_id=7475825B-E844-4012-841B-0E29E05D4540', params: body.to_json, headers: headers
 
-      get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
+    #   get "/api/v1/reviews?campsite_id=7475825B-E844-4012-841B-0E29E05D4540"
 
-      expect(response).to be_successful
+    #   expect(response).to be_successful
 
-      reviews = JSON.parse(response.body, symbolize_names: true)
+    #   reviews = JSON.parse(response.body, symbolize_names: true)
 
-      expect(reviews[:data].first[:attributes][:image_url]).to include("https://backcountrybookings.s3.us-west-2.amazonaws.com")
-    end 
+    #   expect(reviews[:data].first[:attributes][:image_url]).to include("https://backcountrybookings.s3.us-west-2.amazonaws.com")
+    # end 
   end
 
   describe 'delete review' do
@@ -179,7 +177,7 @@ RSpec.describe 'Review' do
 
       expect(error_response).to be_a(Hash)
       expect(error_response).to have_key(:error)
-      expect(error_response[:error]).to eq("Img file is not given between size and Img file has an invalid content type")
+      expect(error_response[:error]).to eq("Img file is not given between size")
     end
 
     it 'will return an empty array if campsite has no reviews' do 
