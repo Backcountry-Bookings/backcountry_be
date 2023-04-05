@@ -32,8 +32,8 @@ class CampsiteFacade
   def self.get_campsites_by_location(coords)
     format_coords = coords.split(',').map(&:to_f).first(2)
     campsites = Campsite.near([format_coords[0], format_coords[1]], 50).limit(10)
-    campsites[:data].map do |campsite|
-      CampsiteSearch.new(campsite)
+    campsites.map do |campsite|
+      CampsiteLocationSearch.new(campsite)
     end
   end
 end
