@@ -35,6 +35,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
@@ -63,7 +65,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
-
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
@@ -92,7 +95,38 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
+      end
+    end
+  end
 
+  describe '#get_campsites_by_location' do
+    it 'returns the campsites by location' do
+      get '/api/v1/campsites?by_dist=29.51,-100.91'
+
+      expect(response).to be_successful
+
+      campsite_details = JSON.parse(response.body, symbolize_names: true)
+      binding.pry
+      expect(campsite_details).to be_a(Hash)
+      expect(campsite_details).to have_key(:data)
+      expect(campsite_details[:data]).to be_an(Array)
+      expect(campsite_details[:data].count).to eq(12)
+      
+      campsite_details[:data].each do |campsite|
+        expect(campsite).to have_key(:id)
+        expect(campsite).to have_key(:type)
+        expect(campsite[:type]).to eq('campsite_search')
+        expect(campsite).to have_key(:attributes)
+        expect(campsite[:attributes]).to be_a(Hash)
+        expect(campsite[:attributes]).to have_key(:name)
+        expect(campsite[:attributes]).to have_key(:description)
+        expect(campsite[:attributes]).to have_key(:images)
+        expect(campsite[:attributes][:images]).to be_an(Array)
+        expect(campsite[:attributes]).to have_key(:cost)
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
