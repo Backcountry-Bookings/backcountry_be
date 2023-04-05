@@ -1,5 +1,4 @@
 class CampsiteFacade 
-
   def self.get_campsite(camp_id)
     campsite_data = CampsiteService.find_by_camp(camp_id)
     CampsiteDetails.new(campsite_data[:data][0])

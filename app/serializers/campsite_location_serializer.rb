@@ -1,6 +1,4 @@
 class CampsiteLocationSerializer
-  include ParkNameConverter
-
   def self.location_serializer(location_data)
     {
       "data": location_data.map do |location|

@@ -1,5 +1,6 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
+require 'active_storage_validations/matchers'
 ENV['RAILS_ENV'] ||= 'test'
 require 'simplecov'
 SimpleCov.start
@@ -69,6 +70,8 @@ RSpec.configure do |config|
   config.order = 'default'
 
   config.include FactoryBot::Syntax::Methods
+
+  config.include ActiveStorageValidations::Matchers
 end
 
 Shoulda::Matchers.configure do |config|

@@ -1,5 +1,6 @@
 class Api::V1::CampsitesController < ApplicationController
   include ParkNameConverter
+  
   def index
     if params[:state_code]
       campsites = CampsiteFacade.get_campsites_by_state(params[:state_code])
@@ -16,7 +17,6 @@ class Api::V1::CampsitesController < ApplicationController
 
     elsif params[:by_dist]
       campsites = CampsiteFacade.get_campsites_by_location(params[:by_dist])
-      # binding.pry
       render json: CampsiteLocationSerializer.location_serializer(campsites)
     end
   end
