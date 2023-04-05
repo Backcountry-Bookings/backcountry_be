@@ -34,6 +34,7 @@ gem 'jsonapi-serializer'
 gem 'aws-sdk-s3', require: false
 gem 'activestorage-validator'
 gem 'active_storage_validations'
+gem 'geocoder'
 
 group :test do
   gem 'webmock'

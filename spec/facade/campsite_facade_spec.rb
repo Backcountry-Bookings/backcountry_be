@@ -19,7 +19,7 @@ RSpec.describe 'campsite facade' do
     it 'gets the details of the campsite object' do 
       campsite = CampsiteFacade.get_campsite('7475825B-E844-4012-841B-0E29E05D4540')
       
-      expect(campsite).to be_a(Campsite)
+      expect(campsite).to be_a(CampsiteDetails)
     end
   end
 
@@ -56,4 +56,16 @@ RSpec.describe 'campsite facade' do
       end
     end
   end
+
+  # describe '#get_campsites_by_location' do
+  #   it 'returns the campsites by location' do
+  #     # WebMock.allow_net_connect!
+  #     campsites = CampsiteFacade.get_campsites_by_location('29.51,-100.91')
+  #     expect(campsites).to be_a(Array)
+  #     campsites.each do |campsite|
+  #       expect(campsite).to be_a(CampsiteSearch)
+  #     end
+  #   end
+  # end
+
 end
