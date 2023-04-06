@@ -31,8 +31,8 @@ class CampsiteDetails
     @long = camp_data[:longitude]
     @booking_link = camp_data[:reservationUrl]
     @description = camp_data[:description]
-    @images = camp_data[:images] #may need additional method
-    @cost = camp_data[:fees] #may need adjustment
+    @images = camp_data[:images]
+    @cost = camp_data[:fees]
     @number_of_reservation_sites = camp_data[:campsites][:totalSites]
     @reservation_info = camp_data[:reservationInfo]
     @toilets = camp_data[:amenities][:toilets]

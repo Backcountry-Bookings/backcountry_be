@@ -1,5 +1,4 @@
 class CampsiteService
-
   def self.find_by_camp(camp_id)
     parse(conn.get("/api/v1/campgrounds?q=#{camp_id}&limit=1"))
   end

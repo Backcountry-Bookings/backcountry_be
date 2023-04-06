@@ -35,6 +35,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
@@ -63,7 +65,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
-
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
@@ -92,7 +95,8 @@ RSpec.describe 'CampsitesSearch API' do
         expect(campsite[:attributes]).to have_key(:images)
         expect(campsite[:attributes][:images]).to be_an(Array)
         expect(campsite[:attributes]).to have_key(:cost)
-
+        expect(campsite[:attributes]).to have_key(:park_name)
+        expect(campsite[:attributes]).to have_key(:state_code)
       end
     end
   end
