@@ -9,7 +9,7 @@
 # <p align="center"> Backcountry Bookings - BE </p>
 
 
-Backcountry Bookings - BE is the backend service for the [Backcountry Bookings](https://www.backcountrybookings.herokuapp.com) app, providing the necessary endpoints and services needed by the [frontend](https://github.com/Backcountry-Bookings/backcountry_fe) team.
+Backcountry Bookings - BE is the backend service for the [Backcountry Bookings](https://backcountrybookings.herokuapp.com) app, providing the necessary endpoints and services needed by the [frontend](https://github.com/Backcountry-Bookings/backcountry_fe) team.
 
 ## About Backcountry Bookings
 
